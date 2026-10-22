@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<title>蓝色大肥鱼</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body class="boot">
+
+<!-- ============ 宠物舞台 ============ -->
+<div id="stage" aria-label="宠物舞台"></div>
+
+<!-- ============ 台词气泡 ============ -->
+<div id="bubble" class="bubble hidden" aria-live="polite">
+  <div class="bubble-text"></div>
+  <div class="bubble-tail"></div>
+</div>
+
+<!-- ============ 顶部工具条 ============ -->
+<div id="toolbar" class="toolbar">
+  <button id="btn-menu" class="tb-btn" title="菜单">☰</button>
+  <button id="btn-chat" class="tb-btn" title="AI 对话">💬</button>
+  <button id="btn-settings" class="tb-btn" title="设置">⚙</button>
+  <button id="btn-hide" class="tb-btn" title="隐藏工具条">✕</button>
+</div>
+<button id="btn-show" class="tb-show hidden" title="显示工具条">⋯</button>
+
+<!-- ============ 右键 / 长按菜单 ============ -->
+<div id="menu" class="menu hidden" role="menu"></div>
+
+<!-- ============ 设置面板 ============ -->
+<section id="settings" class="panel hidden" aria-label="设置">
+  <header class="panel-head">
+    <h2>设置</h2>
+    <button class="panel-close" data-close="settings">✕</button>
+  </header>
+  <div class="panel-body">
+
+    <details open>
+      <summary>外观</summary>
+      <div class="row">
+        <label>宠物大小 <output id="out-size"></output></label>
+        <input id="set-scale" type="range" min="0.2" max="2.5" step="0.05">
+      </div>
+      <div class="row switch-row">
+        <label for="set-overlaycrisp">悬浮颜色优先（拖拽略顿，但不再偏透明）</label>
+        <input id="set-overlaycrisp" type="checkbox">
+      </div>
+      <div class="row">
+        <label>悬浮层浓淡 <span class="val" id="out-punch">50%</span></label>
+        <input id="set-overlaypunch" type="range" min="0" max="1" step="0.05">
+      </div>
+      <div class="row switch-row">
+        <label for="set-toolbar">显示顶部工具条</label>
+        <input id="set-toolbar" type="checkbox">
+      </div>
+      <div class="row switch-row">
+        <label for="set-transparent">透明背景（自由窗口悬浮时更有桌宠感）</label>
+        <input id="set-transparent" type="checkbox">
+      </div>
+    </details>
+
+    <details open>
+      <summary>互动</summary>
+      <div class="row switch-row">
+        <label for="set-gravity">重力（关掉后可上下自由移动，像电脑端）</label>
+        <input id="set-gravity" type="checkbox">
+      </div>
+      <div class="row switch-row">
+        <label for="set-wander">自主走动</label>
+        <input id="set-wander" type="checkbox">
+      </div>
+      <div class="row switch-row">
+        <label for="set-random">随机小动作（89 段）</label>
+        <input id="set-random" type="checkbox">
+      </div>
+      <div class="row switch-row">
+        <label for="set-speech">说台词气泡</label>
+        <input id="set-speech" type="checkbox">
+      </div>
+      <div class="row">
+        <label>气泡停留 <output id="out-bubble">3.2 秒</output></label>
+        <input id="set-bubble" type="range" min="1" max="30" step="0.2">
+      </div>
+      <div class="row">
+        <label>说话间隔 <output id="out-interval">20–60 秒</output></label>
+        <input id="set-interval-min" type="range" min="5" max="600" step="5">
+        <input id="set-interval-max" type="range" min="5" max="600" step="5">
+      </div>
+      <div class="row">
+        <label>台词池（每行一条，留空用内置 5 条）</label>
+        <textarea id="set-phrases" rows="5" placeholder="留空即使用内置台词"></textarea>
+      </div>
+    </details>
+
+    <details>
+      <summary>点击音效</summary>
+      <div class="row switch-row">
+        <label for="set-sound">点击音效</label>
+        <input id="set-sound" type="checkbox">
+      </div>
+      <div class="row">
+        <label>音量 <output id="out-volume">70%</output></label>
+        <input id="set-volume" type="range" min="0" max="1" step="0.05">
+      </div>
+      <div class="row">
+        <button id="btn-try-sound" class="ghost-btn">试听</button>
+      </div>
+    </details>
+
+    <details>
+      <summary>小鲸鱼与碰撞</summary>
+      <div class="row switch-row">
+        <label for="set-companions">生小鲸鱼</label>
+        <input id="set-companions" type="checkbox">
+      </div>
+      <div class="row switch-row">
+        <label for="set-collision">桌宠碰撞</label>
+        <input id="set-collision" type="checkbox">
+      </div>
+      <div class="row">
+        <label>撞后弹力 <output id="out-restitution">0.82</output></label>
+        <input id="set-restitution" type="range" min="0" max="1" step="0.02">
+      </div>
+    </details>
+
+    <details>
+      <summary>AI 对话（OpenAI Chat Completions 兼容）</summary>
+      <div class="row">
+        <label for="set-ai-base">接口地址</label>
+        <input id="set-ai-base" type="text" placeholder="https://api.deepseek.com/v1">
+      </div>
+      <div class="row">
+        <label for="set-ai-key">API Key</label>
+        <input id="set-ai-key" type="password" placeholder="sk-...">
+      </div>
+      <div class="row">
+        <label for="set-ai-model">模型名</label>
+        <input id="set-ai-model" type="text" placeholder="deepseek-chat">
+      </div>
+      <div class="row">
+        <label for="set-ai-temp">温度 <output id="out-temp">0.8</output></label>
+        <input id="set-ai-temp" type="range" min="0" max="2" step="0.1">
+      </div>
+      <div class="row">
+        <label for="set-aimax">回复上限 <output id="out-maxtok">2048</output></label>
+        <input id="set-aimax" type="range" min="256" max="8192" step="256">
+      </div>
+      <div class="row">
+        <label for="set-ai-prompt">人格提示词</label>
+        <textarea id="set-ai-prompt" rows="4" placeholder="留空使用内置人格"></textarea>
+      </div>
+      <div class="row switch-row">
+        <label for="set-tts">朗读回复（系统 TTS）</label>
+        <input id="set-tts" type="checkbox">
+      </div>
+      <div class="row">
+        <label>语速 <output id="out-tts">1.0×</output></label>
+        <input id="set-tts-rate" type="range" min="0.5" max="2" step="0.1">
+      </div>
+      <div class="row">
+        <label>记忆轮数 <output id="out-history">8</output></label>
+        <input id="set-history" type="range" min="0" max="30" step="1">
+      </div>
+    </details>
+
+    <div class="row panel-actions">
+      <button id="btn-reset" class="danger-btn">恢复出厂设置</button>
+    </div>
+    <p class="hint" id="env-hint"></p>
+  </div>
+</section>
+
+<!-- ============ AI 对话面板 ============ -->
+<section id="chat" class="panel chat-panel hidden" aria-label="AI 对话">
+  <header class="panel-head">
+    <h2>和蓝色大肥鱼聊天</h2>
+    <button class="panel-close" data-close="chat">✕</button>
+  </header>
+  <div id="chat-log" class="chat-log"></div>
+  <div class="chat-input-bar">
+    <textarea id="chat-input" rows="1" placeholder="说点什么…（Enter 发送）"></textarea>
+    <button id="chat-send" class="primary-btn">发送</button>
+  </div>
+  <div class="chat-foot">
+    <button id="chat-clear" class="ghost-btn">清空记录</button>
+    <span id="chat-status" class="chat-status"></span>
+  </div>
+</section>
+
+<div id="toast" class="toast hidden"></div>
+
+<script>
+/* 本机调试用假宿主：?fakehost=1 时顶替安卓 petHost，
+   用来在没有手机的情况下复现悬浮模式的几何流程 */
+(function () {
+  var q = new URLSearchParams(location.search);
+  if (!q.get('fakehost')) return;
+  var win = { x: 0, y: 0 };
+  window.petHost = {
+    isNative: function () { return true; },
+    getPlatform: function () { return 'android'; },
+    getMode: function () { return q.get('mode') || 'overlay'; },
+    getScreen: function () { return JSON.stringify({ w: 384, h: 792, density: 3.75 }); },
+    setWindowSize: function (w, h) {
+      console.log('[fake] setWindowSize', w, h);
+      setTimeout(function () { window.__winApplied && window.__winApplied(win.x, win.y, w, h); }, 16);
+    },
+    moveWindow: function (x, y) { win.x = x; win.y = y; },
+    speak: function () { return '{"ok":false}'; },
+    stopSpeak: function () {},
+    httpPostAsync: function () {},
+    toast: function (m) { console.log('[fake toast]', m); },
+    exitApp: function () {},
+    keepAwake: function () { return true; },
+    loadKV: function () { return ''; },
+    saveKV: function () { return true; },
+    log: function (m) { console.log('[fake]', m); },
+    canOverlay: function () { return true; },
+    requestOverlayPermission: function () {},
+    enterOverlay: function () { return '{"ok":true}'; },
+    exitOverlay: function () {},
+    openApp: function () {}
+  };
+})();
+</script>
+<script src="assets/manifest.js"></script>
+<script src="js/bridge.js"></script>
+<script src="js/util.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/pet.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

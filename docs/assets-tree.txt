@@ -1,0 +1,386 @@
+# APK zip inventory (pure python zipfile)
+# apk: D:\肥鱼\蓝色大肥鱼\蓝色大肥鱼-安卓桌宠-完整版.apk
+# entries: 152
+
+## ALL ENTRIES (path	size	crc32)
+META-INF/com/android/build/gradle/app-metadata.properties	57	555cf04c
+classes.dex	1316	5d32ef6a
+classes2.dex	31856	12bc7436
+assets/web/assets-stub/anim/click__τé╣σç╗σ¢₧σ║ö-σàâµ░öµîÑµëï.webp	590188	a506e74c
+assets/web/assets-stub/anim/drag__Φó½Θ╝áµáçµïûµï╜µé¼τ⌐║σÅìΘªê.webp	595534	6a4d1891
+assets/web/assets-stub/anim/idle__σ╛àµ£║σæ╝σÉ╕Σ╝æΘù▓.webp	567682	a9f54b66
+assets/web/assets-stub/anim/move__µ╝éµ╡«Φ╕Åµ¡Ñ.webp	550760	4dc40af4
+assets/web/assets-stub/anim/random__σåÖΣ╗úτáü.webp	555474	b72c1ac2
+assets/web/assets-stub/anim/turn__Σ╕£σ╝áΦÑ┐µ£¢.webp	570302	c76baa9f
+assets/web/assets-stub/manifest.json	2087	61e31bce
+assets/web/assets-stub/sounds/press.mp3	6370	421a841f
+assets/web/assets-stub/sounds/release.mp3	2976	fcbb93e8
+assets/web/assets/anim/click_006.webp	2602580	49fbef48
+assets/web/assets/anim/click_007.webp	3063682	2c1f0704
+assets/web/assets/anim/click_008.webp	3068704	733305f0
+assets/web/assets/anim/click_009.webp	3358884	343e2509
+assets/web/assets/anim/click_010.webp	2926192	223900f8
+assets/web/assets/anim/drag_011.webp	3188078	b1276a8a
+assets/web/assets/anim/events_012.webp	3264910	d1fd8e3d
+assets/web/assets/anim/events_013.webp	2925676	3282a0a5
+assets/web/assets/anim/events_014.webp	3147060	2658f315
+assets/web/assets/anim/events_015.webp	3313780	5ccdc2ac
+assets/web/assets/anim/events_016.webp	3226058	d40cb471
+assets/web/assets/anim/events_017.webp	3734714	54ee7f4e
+assets/web/assets/anim/idle_001.webp	3008258	e6f359b4
+assets/web/assets/anim/move_002.webp	2870724	737d34b9
+assets/web/assets/anim/move_003.webp	3055988	423f9add
+assets/web/assets/anim/move_004.webp	2990996	c392e7ec
+assets/web/assets/anim/random_018.webp	3209562	585b4e36
+assets/web/assets/anim/random_019.webp	3028686	6738891b
+assets/web/assets/anim/random_020.webp	3385236	ccf2c22b
+assets/web/assets/anim/random_021.webp	3000980	7c34aab9
+assets/web/assets/anim/random_022.webp	3094996	a505c9b5
+assets/web/assets/anim/random_023.webp	2902596	001bbbee
+assets/web/assets/anim/random_024.webp	2977264	013b0f86
+assets/web/assets/anim/random_025.webp	3631432	654addc9
+assets/web/assets/anim/random_026.webp	5238332	593fc906
+assets/web/assets/anim/random_027.webp	3069340	59f6f7b0
+assets/web/assets/anim/random_028.webp	3251916	1f514ffd
+assets/web/assets/anim/random_029.webp	2829584	8f9b7b37
+assets/web/assets/anim/random_030.webp	3843140	2f350faa
+assets/web/assets/anim/random_031.webp	3136908	5ae7513a
+assets/web/assets/anim/random_032.webp	2390922	12725db2
+assets/web/assets/anim/random_033.webp	3063320	b10408d2
+assets/web/assets/anim/random_034.webp	3091218	878cebbc
+assets/web/assets/anim/random_035.webp	3505252	989748ff
+assets/web/assets/anim/random_036.webp	3107002	ff5aaae7
+assets/web/assets/anim/random_037.webp	3034754	2f49b9d8
+assets/web/assets/anim/random_038.webp	3252142	06d4b6cc
+assets/web/assets/anim/random_039.webp	2986864	e523c5a5
+assets/web/assets/anim/random_040.webp	2988406	fc89c320
+assets/web/assets/anim/random_041.webp	5162048	2388fa1f
+assets/web/assets/anim/random_042.webp	2990862	08732f4c
+assets/web/assets/anim/random_043.webp	3102710	0d19e4f7
+assets/web/assets/anim/random_044.webp	3148794	6891d1d2
+assets/web/assets/anim/random_045.webp	3134038	c99b599c
+assets/web/assets/anim/random_046.webp	2944796	ead3a1ac
+assets/web/assets/anim/random_047.webp	3069102	341dddf9
+assets/web/assets/anim/random_048.webp	3019238	9c44d735
+assets/web/assets/anim/random_049.webp	3110122	908cec28
+assets/web/assets/anim/random_050.webp	2876118	86d1222b
+assets/web/assets/anim/random_051.webp	3362652	2a99bd1b
+assets/web/assets/anim/random_052.webp	4097564	ed455e4e
+assets/web/assets/anim/random_053.webp	4184866	e2306e0d
+assets/web/assets/anim/random_054.webp	3065102	1a56b6cd
+assets/web/assets/anim/random_055.webp	2953170	999a7ced
+assets/web/assets/anim/random_056.webp	4408102	7729dfd1
+assets/web/assets/anim/random_057.webp	2967368	f88ce8cd
+assets/web/assets/anim/random_058.webp	2927418	46ac644e
+assets/web/assets/anim/random_059.webp	3231446	aa53a6eb
+assets/web/assets/anim/random_060.webp	3316232	a48ea6c6
+assets/web/assets/anim/random_061.webp	1644098	8ee3bed3
+assets/web/assets/anim/random_062.webp	3380668	a77a84a2
+assets/web/assets/anim/random_063.webp	3467924	e0302cd1
+assets/web/assets/anim/random_064.webp	2919016	62bbf72f
+assets/web/assets/anim/random_065.webp	3349714	36b29c92
+assets/web/assets/anim/random_066.webp	3402792	2def480a
+assets/web/assets/anim/random_067.webp	3078348	29f6c8a0
+assets/web/assets/anim/random_068.webp	3030416	e7fb4c36
+assets/web/assets/anim/random_069.webp	3147530	3cc5bf59
+assets/web/assets/anim/random_070.webp	3041658	4a4ab0c7
+assets/web/assets/anim/random_071.webp	3096300	4d7cb594
+assets/web/assets/anim/random_072.webp	3250240	15cd546a
+assets/web/assets/anim/random_073.webp	2976300	c908c38c
+assets/web/assets/anim/random_074.webp	2987524	cf7912a3
+assets/web/assets/anim/random_075.webp	4295008	56b5d3f9
+assets/web/assets/anim/random_076.webp	2935960	5ba079ca
+assets/web/assets/anim/random_077.webp	7424934	ee698a54
+assets/web/assets/anim/random_078.webp	4010340	f5868fbd
+assets/web/assets/anim/random_079.webp	2683636	184bc0d3
+assets/web/assets/anim/random_080.webp	4345686	f31bea38
+assets/web/assets/anim/random_081.webp	3125668	4e162a51
+assets/web/assets/anim/random_082.webp	3121760	823b4f22
+assets/web/assets/anim/random_083.webp	3842296	dee4d03d
+assets/web/assets/anim/random_084.webp	3128214	3f21bebd
+assets/web/assets/anim/random_085.webp	3297966	8a3f46a3
+assets/web/assets/anim/random_086.webp	3333300	1556493e
+assets/web/assets/anim/random_087.webp	3109390	304a1a5a
+assets/web/assets/anim/random_088.webp	2919404	87f522f1
+assets/web/assets/anim/random_089.webp	2973594	b6656390
+assets/web/assets/anim/random_090.webp	2992764	16416bf5
+assets/web/assets/anim/random_091.webp	3324450	750d8a06
+assets/web/assets/anim/random_092.webp	3315024	2007f615
+assets/web/assets/anim/random_093.webp	3463020	a40c7450
+assets/web/assets/anim/random_094.webp	3064976	c0e4c66d
+assets/web/assets/anim/random_095.webp	3316528	b0d17d4c
+assets/web/assets/anim/random_096.webp	4828442	8b9ac07f
+assets/web/assets/anim/random_097.webp	3020368	4ef4947a
+assets/web/assets/anim/random_098.webp	4187964	b38aaaa3
+assets/web/assets/anim/random_099.webp	5446282	4b3a861a
+assets/web/assets/anim/random_100.webp	3020252	a12a9c24
+assets/web/assets/anim/random_101.webp	3029176	7a234b07
+assets/web/assets/anim/random_102.webp	3069240	7f87c59f
+assets/web/assets/anim/random_103.webp	3007334	38eb5aae
+assets/web/assets/anim/random_104.webp	3019520	af8b5610
+assets/web/assets/anim/random_105.webp	3869340	9e732ad3
+assets/web/assets/anim/random_106.webp	3513056	75f695e4
+assets/web/assets/anim/turn_005.webp	3022214	6f7f9fd8
+assets/web/assets/chat/cyber-night.jpg	450108	01ff816e
+assets/web/assets/chat/ds_whale.png	28362	be309018
+assets/web/assets/chat/furina.jpg	110871	30b533d9
+assets/web/assets/chat/harbor.jpg	153576	56a65162
+assets/web/assets/chat/jingwa.png	250660	6bc4515b
+assets/web/assets/chat/miku.jpg	242497	de517aec
+assets/web/assets/chat/summer.jpg	374241	ed8f5172
+assets/web/assets/chat/whale-mom.jpg	247817	aeeb457a
+assets/web/assets/chat/whale-song.jpg	210390	95941179
+assets/web/assets/chat/whale-v2.jpg	228079	38941631
+assets/web/assets/chat/whale.jpg	204693	8600f8eb
+assets/web/assets/icon/app_icon.png	286288	e5b31504
+assets/web/assets/manifest.js	20708	8a6f24a8
+assets/web/assets/manifest.json	28044	c1ec38f7
+assets/web/assets/sounds/agent/done.wav	17684	9b1a9377
+assets/web/assets/sounds/agent/error.wav	13272	c0f702b6
+assets/web/assets/sounds/agent/start.wav	11068	2c036574
+assets/web/assets/sounds/click.wav	7100	76f465e2
+assets/web/assets/sounds/duck/Ya1.mp3	6370	421a841f
+assets/web/assets/sounds/duck/Ya2.mp3	2976	fcbb93e8
+assets/web/css/app.css	12637	d5df28a1
+assets/web/icon/app_icon.png	89042	7dd7c55d
+assets/web/index.html	9580	f30e6f4a
+assets/web/js/bridge.js	8793	4af27514
+assets/web/js/chat.js	9436	8a068f51
+assets/web/js/engine.js	30786	fa800f4b
+assets/web/js/main.js	11271	a5859131
+assets/web/js/pet.js	42504	7a3d2c9d
+assets/web/js/settings.js	7924	e39447dc
+assets/web/js/ui.js	13684	bc590ac4
+assets/web/js/util.js	1960	cc81bae9
+AndroidManifest.xml	3612	8010a63d
+res/mipmap-xxhdpi-v4/ic_launcher.png	200727	96e9b1ff
+resources.arsc	776	59ba6093
+
+## DIRECTORY SUMMARY (dir	n_files	total_bytes)
+<root>	4	37560
+META-INF\com\android\build\gradle	1	57
+assets\web	1	9580
+assets\web\assets	2	48752
+assets\web\assets-stub	1	2087
+assets\web\assets-stub\anim	6	3429940
+assets\web\assets-stub\sounds	2	9346
+assets\web\assets\anim	106	350667518
+assets\web\assets\chat	11	2501294
+assets\web\assets\icon	1	286288
+assets\web\assets\sounds	1	7100
+assets\web\assets\sounds\agent	3	42024
+assets\web\assets\sounds\duck	2	9346
+assets\web\css	1	12637
+assets\web\icon	1	89042
+assets\web\js	8	126358
+res\mipmap-xxhdpi-v4	1	200727
+
+## EXTENSION SUMMARY (ext	n_files	total_bytes)
+.webp	112	354097458
+.jpg	9	2222272
+.png	5	855079
+.js	9	147066
+.wav	4	49124
+.dex	2	33172
+.json	2	30131
+.mp3	4	18692
+.css	1	12637
+.html	1	9580
+.xml	1	3612
+.arsc	1	776
+.properties	1	57
+
+## FULL PATH LIST (assets/, excluding anim webp volume)
+assets/web/assets-stub/anim/click__τé╣σç╗σ¢₧σ║ö-σàâµ░öµîÑµëï.webp	590188
+assets/web/assets-stub/anim/drag__Φó½Θ╝áµáçµïûµï╜µé¼τ⌐║σÅìΘªê.webp	595534
+assets/web/assets-stub/anim/idle__σ╛àµ£║σæ╝σÉ╕Σ╝æΘù▓.webp	567682
+assets/web/assets-stub/anim/move__µ╝éµ╡«Φ╕Åµ¡Ñ.webp	550760
+assets/web/assets-stub/anim/random__σåÖΣ╗úτáü.webp	555474
+assets/web/assets-stub/anim/turn__Σ╕£σ╝áΦÑ┐µ£¢.webp	570302
+assets/web/assets-stub/manifest.json	2087
+assets/web/assets-stub/sounds/press.mp3	6370
+assets/web/assets-stub/sounds/release.mp3	2976
+assets/web/assets/anim/click_006.webp	2602580
+assets/web/assets/anim/click_007.webp	3063682
+assets/web/assets/anim/click_008.webp	3068704
+assets/web/assets/anim/click_009.webp	3358884
+assets/web/assets/anim/click_010.webp	2926192
+assets/web/assets/anim/drag_011.webp	3188078
+assets/web/assets/anim/events_012.webp	3264910
+assets/web/assets/anim/events_013.webp	2925676
+assets/web/assets/anim/events_014.webp	3147060
+assets/web/assets/anim/events_015.webp	3313780
+assets/web/assets/anim/events_016.webp	3226058
+assets/web/assets/anim/events_017.webp	3734714
+assets/web/assets/anim/idle_001.webp	3008258
+assets/web/assets/anim/move_002.webp	2870724
+assets/web/assets/anim/move_003.webp	3055988
+assets/web/assets/anim/move_004.webp	2990996
+assets/web/assets/anim/random_018.webp	3209562
+assets/web/assets/anim/random_019.webp	3028686
+assets/web/assets/anim/random_020.webp	3385236
+assets/web/assets/anim/random_021.webp	3000980
+assets/web/assets/anim/random_022.webp	3094996
+assets/web/assets/anim/random_023.webp	2902596
+assets/web/assets/anim/random_024.webp	2977264
+assets/web/assets/anim/random_025.webp	3631432
+assets/web/assets/anim/random_026.webp	5238332
+assets/web/assets/anim/random_027.webp	3069340
+assets/web/assets/anim/random_028.webp	3251916
+assets/web/assets/anim/random_029.webp	2829584
+assets/web/assets/anim/random_030.webp	3843140
+assets/web/assets/anim/random_031.webp	3136908
+assets/web/assets/anim/random_032.webp	2390922
+assets/web/assets/anim/random_033.webp	3063320
+assets/web/assets/anim/random_034.webp	3091218
+assets/web/assets/anim/random_035.webp	3505252
+assets/web/assets/anim/random_036.webp	3107002
+assets/web/assets/anim/random_037.webp	3034754
+assets/web/assets/anim/random_038.webp	3252142
+assets/web/assets/anim/random_039.webp	2986864
+assets/web/assets/anim/random_040.webp	2988406
+assets/web/assets/anim/random_041.webp	5162048
+assets/web/assets/anim/random_042.webp	2990862
+assets/web/assets/anim/random_043.webp	3102710
+assets/web/assets/anim/random_044.webp	3148794
+assets/web/assets/anim/random_045.webp	3134038
+assets/web/assets/anim/random_046.webp	2944796
+assets/web/assets/anim/random_047.webp	3069102
+assets/web/assets/anim/random_048.webp	3019238
+assets/web/assets/anim/random_049.webp	3110122
+assets/web/assets/anim/random_050.webp	2876118
+assets/web/assets/anim/random_051.webp	3362652
+assets/web/assets/anim/random_052.webp	4097564
+assets/web/assets/anim/random_053.webp	4184866
+assets/web/assets/anim/random_054.webp	3065102
+assets/web/assets/anim/random_055.webp	2953170
+assets/web/assets/anim/random_056.webp	4408102
+assets/web/assets/anim/random_057.webp	2967368
+assets/web/assets/anim/random_058.webp	2927418
+assets/web/assets/anim/random_059.webp	3231446
+assets/web/assets/anim/random_060.webp	3316232
+assets/web/assets/anim/random_061.webp	1644098
+assets/web/assets/anim/random_062.webp	3380668
+assets/web/assets/anim/random_063.webp	3467924
+assets/web/assets/anim/random_064.webp	2919016
+assets/web/assets/anim/random_065.webp	3349714
+assets/web/assets/anim/random_066.webp	3402792
+assets/web/assets/anim/random_067.webp	3078348
+assets/web/assets/anim/random_068.webp	3030416
+assets/web/assets/anim/random_069.webp	3147530
+assets/web/assets/anim/random_070.webp	3041658
+assets/web/assets/anim/random_071.webp	3096300
+assets/web/assets/anim/random_072.webp	3250240
+assets/web/assets/anim/random_073.webp	2976300
+assets/web/assets/anim/random_074.webp	2987524
+assets/web/assets/anim/random_075.webp	4295008
+assets/web/assets/anim/random_076.webp	2935960
+assets/web/assets/anim/random_077.webp	7424934
+assets/web/assets/anim/random_078.webp	4010340
+assets/web/assets/anim/random_079.webp	2683636
+assets/web/assets/anim/random_080.webp	4345686
+assets/web/assets/anim/random_081.webp	3125668
+assets/web/assets/anim/random_082.webp	3121760
+assets/web/assets/anim/random_083.webp	3842296
+assets/web/assets/anim/random_084.webp	3128214
+assets/web/assets/anim/random_085.webp	3297966
+assets/web/assets/anim/random_086.webp	3333300
+assets/web/assets/anim/random_087.webp	3109390
+assets/web/assets/anim/random_088.webp	2919404
+assets/web/assets/anim/random_089.webp	2973594
+assets/web/assets/anim/random_090.webp	2992764
+assets/web/assets/anim/random_091.webp	3324450
+assets/web/assets/anim/random_092.webp	3315024
+assets/web/assets/anim/random_093.webp	3463020
+assets/web/assets/anim/random_094.webp	3064976
+assets/web/assets/anim/random_095.webp	3316528
+assets/web/assets/anim/random_096.webp	4828442
+assets/web/assets/anim/random_097.webp	3020368
+assets/web/assets/anim/random_098.webp	4187964
+assets/web/assets/anim/random_099.webp	5446282
+assets/web/assets/anim/random_100.webp	3020252
+assets/web/assets/anim/random_101.webp	3029176
+assets/web/assets/anim/random_102.webp	3069240
+assets/web/assets/anim/random_103.webp	3007334
+assets/web/assets/anim/random_104.webp	3019520
+assets/web/assets/anim/random_105.webp	3869340
+assets/web/assets/anim/random_106.webp	3513056
+assets/web/assets/anim/turn_005.webp	3022214
+assets/web/assets/chat/cyber-night.jpg	450108
+assets/web/assets/chat/ds_whale.png	28362
+assets/web/assets/chat/furina.jpg	110871
+assets/web/assets/chat/harbor.jpg	153576
+assets/web/assets/chat/jingwa.png	250660
+assets/web/assets/chat/miku.jpg	242497
+assets/web/assets/chat/summer.jpg	374241
+assets/web/assets/chat/whale-mom.jpg	247817
+assets/web/assets/chat/whale-song.jpg	210390
+assets/web/assets/chat/whale-v2.jpg	228079
+assets/web/assets/chat/whale.jpg	204693
+assets/web/assets/icon/app_icon.png	286288
+assets/web/assets/manifest.js	20708
+assets/web/assets/manifest.json	28044
+assets/web/assets/sounds/agent/done.wav	17684
+assets/web/assets/sounds/agent/error.wav	13272
+assets/web/assets/sounds/agent/start.wav	11068
+assets/web/assets/sounds/click.wav	7100
+assets/web/assets/sounds/duck/Ya1.mp3	6370
+assets/web/assets/sounds/duck/Ya2.mp3	2976
+assets/web/css/app.css	12637
+assets/web/icon/app_icon.png	89042
+assets/web/index.html	9580
+assets/web/js/bridge.js	8793
+assets/web/js/chat.js	9436
+assets/web/js/engine.js	30786
+assets/web/js/main.js	11271
+assets/web/js/pet.js	42504
+assets/web/js/settings.js	7924
+assets/web/js/ui.js	13684
+assets/web/js/util.js	1960
+
+## FRONT-END / SMALL ASSETS EXTRACTED -> C:\Users\15629\Documents\deepseek-harness\default-workspace\.prwork\apk-frontend
+(apk_path	rel_path	bytes	sha256)
+assets/web/assets-stub/anim/click__τé╣σç╗σ¢₧σ║ö-σàâµ░öµîÑµëï.webp	web/assets-stub/anim/click__τé╣σç╗σ¢₧σ║ö-σàâµ░öµîÑµëï.webp	590188	1d1e119d56b12fc7abf0dad8dbc44c6f75f639fe7394de468784f6e28ea0d4f8
+assets/web/assets-stub/anim/drag__Φó½Θ╝áµáçµïûµï╜µé¼τ⌐║σÅìΘªê.webp	web/assets-stub/anim/drag__Φó½Θ╝áµáçµïûµï╜µé¼τ⌐║σÅìΘªê.webp	595534	50010a5d868e826b92b41600ee65f70cc898ccee2c0be392ce53dae5fae45c29
+assets/web/assets-stub/anim/idle__σ╛àµ£║σæ╝σÉ╕Σ╝æΘù▓.webp	web/assets-stub/anim/idle__σ╛àµ£║σæ╝σÉ╕Σ╝æΘù▓.webp	567682	515a48441895644e58ab116438cd9b3d8ac0a1c5b9ab72b17854337d5db06551
+assets/web/assets-stub/anim/move__µ╝éµ╡«Φ╕Åµ¡Ñ.webp	web/assets-stub/anim/move__µ╝éµ╡«Φ╕Åµ¡Ñ.webp	550760	c90c427d2ac930b2b09bbb646779dea25bbe9561fc461d5355374373f14c4fe9
+assets/web/assets-stub/anim/random__σåÖΣ╗úτáü.webp	web/assets-stub/anim/random__σåÖΣ╗úτáü.webp	555474	ebe858b5abaff2339e03803168c3221216f8c7e8786372c7d08760e20266dded
+assets/web/assets-stub/anim/turn__Σ╕£σ╝áΦÑ┐µ£¢.webp	web/assets-stub/anim/turn__Σ╕£σ╝áΦÑ┐µ£¢.webp	570302	144e5ce270fccc576546730c0b8ce0c77932cad4cd9d033f12ea45bd1ceda7df
+assets/web/assets-stub/manifest.json	web/assets-stub/manifest.json	2087	537d06fe8b9acb72219efc3cc59c27ae6c25adcb9f95a2b9965cede731f003d5
+assets/web/assets-stub/sounds/press.mp3	web/assets-stub/sounds/press.mp3	6370	0ad8f934ae5fa3cbd42745e086a56aa6532766618c6a620b860a795bdc7689f9
+assets/web/assets-stub/sounds/release.mp3	web/assets-stub/sounds/release.mp3	2976	1a8998077e5e306c3088bb442ce36617261dd58200754f457469a520801c565b
+assets/web/assets/anim/random_061.webp	web/assets/anim/random_061.webp	1644098	5c7e06d2102bd20e6e6b3f8d908b8b5779b800484f42215f381f7ed8edd2b75f
+assets/web/assets/chat/cyber-night.jpg	web/assets/chat/cyber-night.jpg	450108	8f5746b26d8343896a02c76cacc3b3596fa5b4e59f3b5e320034578f25c8a47d
+assets/web/assets/chat/ds_whale.png	web/assets/chat/ds_whale.png	28362	d4ea30754f24ff79cce925e8b9cf50d6fafec904a121077377bc6bac9243c583
+assets/web/assets/chat/furina.jpg	web/assets/chat/furina.jpg	110871	09d8ee98af232d49f4ebd72c6ca8e4f590a4fc252664b03c795aff7b620f1b1f
+assets/web/assets/chat/harbor.jpg	web/assets/chat/harbor.jpg	153576	02704d82798a9d3a9c19dad19c920138a714ea37d63cd46ff238b0d7a4f5e540
+assets/web/assets/chat/jingwa.png	web/assets/chat/jingwa.png	250660	89c024ccdbc238f60e527c6003fd5b70ffff04793bca1cb5903ba9c1cde715bc
+assets/web/assets/chat/miku.jpg	web/assets/chat/miku.jpg	242497	90f0e3793b95aa3a588e22fe06d74a51be6618ab3b317fa17679ed0b2473bfda
+assets/web/assets/chat/summer.jpg	web/assets/chat/summer.jpg	374241	b95b7dcdc42063836326ac849975ebc53e71c13219f3ff566920c991939fd09a
+assets/web/assets/chat/whale-mom.jpg	web/assets/chat/whale-mom.jpg	247817	97b63d320dd3253f5b0fc36f78a89e9000292ac64d191a0339958ebe775efc9c
+assets/web/assets/chat/whale-song.jpg	web/assets/chat/whale-song.jpg	210390	ddc87a504a27ccac19e23dc4a421047a75a98f96d4f7e407f1f97a5c6649cd33
+assets/web/assets/chat/whale-v2.jpg	web/assets/chat/whale-v2.jpg	228079	74c05455825a2ee07857401cf6843411a5bc02f4432329085f9dcb1ea55d4c07
+assets/web/assets/chat/whale.jpg	web/assets/chat/whale.jpg	204693	fd5dd90ea75e1d74f45a093fee2cb6f079cdf2fba93af0d14a490d5bfa2e7d4d
+assets/web/assets/icon/app_icon.png	web/assets/icon/app_icon.png	286288	a81dc61c77a1a997deada1a4f01f4c35520a903da24780fb18c1e3f86856c0bb
+assets/web/assets/manifest.js	web/assets/manifest.js	20708	c6ba3c2aaecca6054106fc60f0a6695693e86c45d720e470eda1756652e267be
+assets/web/assets/manifest.json	web/assets/manifest.json	28044	8edf0e889943e49ba6401d823c096191b8e7b793e6341ab284b436eec3e1195d
+assets/web/assets/sounds/agent/done.wav	web/assets/sounds/agent/done.wav	17684	a05404c4dc9c4930398efeaea18f8451b67ede5753e3fbaf684e10102d14c67f
+assets/web/assets/sounds/agent/error.wav	web/assets/sounds/agent/error.wav	13272	81ce8f2d92cb94264eedf692487a298441ee626c5db383b827f13f0e15cd4a24
+assets/web/assets/sounds/agent/start.wav	web/assets/sounds/agent/start.wav	11068	aed639d764adfbb30ca11c06529eb587ebd7595cf33a74c7b79200d255a16193
+assets/web/assets/sounds/click.wav	web/assets/sounds/click.wav	7100	a264df87c52d27a3d79a49440db4dde145b746da538eb86b3d6c6ac9e5340f1c
+assets/web/assets/sounds/duck/Ya1.mp3	web/assets/sounds/duck/Ya1.mp3	6370	0ad8f934ae5fa3cbd42745e086a56aa6532766618c6a620b860a795bdc7689f9
+assets/web/assets/sounds/duck/Ya2.mp3	web/assets/sounds/duck/Ya2.mp3	2976	1a8998077e5e306c3088bb442ce36617261dd58200754f457469a520801c565b
+assets/web/css/app.css	web/css/app.css	12637	a69f576af8ac26d008f16f30e61d9b9ee6933e0765ccb4a0f255f853b78ea688
+assets/web/icon/app_icon.png	web/icon/app_icon.png	89042	e82392f5fe0dd174b68dac6c036490dde5e4d9607c91c78e34194c98bdb65f13
+assets/web/index.html	web/index.html	9580	9b0efcd1233e655c872a20db84b8cd9ebc87158a93d4efa585ba014aa70a60d2
+assets/web/js/bridge.js	web/js/bridge.js	8793	7a53b53935ccd5db08c2479b6fc757e79565cdb060245c27bcdf39621b71d19c
+assets/web/js/chat.js	web/js/chat.js	9436	fe916b1a1a92f796bc56390a2d49ce94311d5267aeb2f1cfb3642a6a890f0c41
+assets/web/js/engine.js	web/js/engine.js	30786	b0966ad7a9d0b4b89ac7eddf8a402722217b859767e984026863477a3009f9c2
+assets/web/js/main.js	web/js/main.js	11271	0ee7ceeea4dcac9d87517a11aa8223ac964e07b3de5cd478eeb6e6fb1290754b
+assets/web/js/pet.js	web/js/pet.js	42504	56879d99599dcad104846e4f89db27f470af7e86d150a90fbdc95a21763d8c61
+assets/web/js/settings.js	web/js/settings.js	7924	4cb5806915d7b7e24357afb96209e87ea01e57fdeed2e0e8a872f3b01670f50e
+assets/web/js/ui.js	web/js/ui.js	13684	c78748bb9e4ab007261701a86b8e111d390a175d07e7afcfe61f5d4d63cb7cdc
+assets/web/js/util.js	web/js/util.js	1960	609db5b3a86ce016e67dedf532fec0f6af7341fefaad18178f20ae3224c517b2
+
+# total extracted bytes: 8217892 ; files: 41
+# skipped (>3MB): []

@@ -1,0 +1,35 @@
+# ---- 大材质：由 tools/extract-assets.py 从 APK 重建（334 MiB，不入库）----
+android/app/src/main/assets/web/assets/anim/
+
+# ---- 构建产物 ----
+android/app/build/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/hs_err_pid*.log
+dist-android/
+build/
+build-onedir/
+*.apk
+*.aab
+
+# ---- 运行时抽取目录 ----
+/assets/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 本地临时 ----
+*.log
+*.tmp

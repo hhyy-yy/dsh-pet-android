@@ -1,0 +1,2286 @@
+====================================================================================================
+DEX classes.dex  size=1316  strings=19 types=9 protos=1 fields=2 methods=4 classes=3
+====================================================================================================
+
+--- CLASS Lcom/dshpet/webfish/R$mipmap;  (public final) super=Ljava/lang/Object; ifaces=[] source=None
+  .static fields:
+    ic_launcher                              I                              public static
+  .direct_methods:
+
+    .method private enum <init>()V   [code_off=380]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: return-void              
+
+--- CLASS Lcom/dshpet/webfish/R$string;  (public final) super=Ljava/lang/Object; ifaces=[] source=None
+  .static fields:
+    app_name                                 I                              public static
+  .direct_methods:
+
+    .method private enum <init>()V   [code_off=404]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: return-void              
+
+--- CLASS Lcom/dshpet/webfish/R;  (public final) super=Ljava/lang/Object; ifaces=[] source=None
+  .direct_methods:
+
+    .method private enum <init>()V   [code_off=428]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: return-void              
+====================================================================================================
+DEX classes2.dex  size=31856  strings=584 types=107 protos=131 fields=85 methods=305 classes=19
+====================================================================================================
+
+--- CLASS Lcom/dshpet/webfish/BuildConfig;  (public final) super=Ljava/lang/Object; ifaces=[] source=BuildConfig.java
+  .static fields:
+    APPLICATION_ID                           Ljava/lang/String;             public static final
+    BUILD_TYPE                               Ljava/lang/String;             public static final
+    DEBUG                                    Z                              public static final
+    VERSION_CODE                             I                              public static final
+    VERSION_NAME                             Ljava/lang/String;             public static final
+  .direct_methods:
+
+    .method static enum <clinit>()V   [code_off=8176]
+      # registers=1 ins=0 outs=1 tries=0 insns=9
+      0000: const-string             v0, "true"
+      0002: invoke-static            {v0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+      0005: move-result              v0
+      0006: sput-boolean             Lcom/dshpet/webfish/BuildConfig;->DEBUG:Z
+      0008: return-void              
+
+    .method public enum <init>()V   [code_off=8212]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: return-void              
+
+--- CLASS Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/MainActivity; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/MainActivity;)V   [code_off=8236]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=8264]
+      # registers=2 ins=1 outs=1 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0002: invoke-static            {v0}, Lcom/dshpet/webfish/MainActivity;->$r8$lambda$3xIuxt805Kdwg9tghwBOJSefY_U(Lcom/dshpet/webfish/MainActivity;)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/MainActivity; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/MainActivity;)V   [code_off=8292]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=8320]
+      # registers=2 ins=1 outs=1 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0002: invoke-static            {v0}, Lcom/dshpet/webfish/MainActivity;->$r8$lambda$uzyh9kHau2y3ePR-w07wFZsl3T8(Lcom/dshpet/webfish/MainActivity;)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/MainActivity;  (public) super=Landroid/app/Activity; ifaces=[] source=MainActivity.java
+  .instance fields:
+    bridge                                   Lcom/dshpet/webfish/PetBridge; private
+    web                                      Landroid/webkit/WebView;       private
+  .direct_methods:
+
+    .method public static synthetic $r8$lambda$3xIuxt805Kdwg9tghwBOJSefY_U(Lcom/dshpet/webfish/MainActivity;)V   [code_off=8348]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Lcom/dshpet/webfish/MainActivity;->lambda$goBackground$1()V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$uzyh9kHau2y3ePR-w07wFZsl3T8(Lcom/dshpet/webfish/MainActivity;)V   [code_off=8372]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Lcom/dshpet/webfish/MainActivity;->lambda$onCreate$0()V
+      0003: return-void              
+
+    .method public enum <init>()V   [code_off=8396]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Landroid/app/Activity;-><init>()V
+      0003: return-void              
+
+    .method private hideSystemUi()V   [code_off=8456]
+      # registers=3 ins=1 outs=2 tries=0 insns=14
+      0000: invoke-virtual           {v2}, Lcom/dshpet/webfish/MainActivity;->getWindow()Landroid/view/Window;
+      0003: move-result-object       v0
+      0004: invoke-virtual           {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+      0007: move-result-object       v0
+      0008: const/16                 v1, +5894
+      000a: invoke-virtual           {v0, v1}, Landroid/view/View;->setSystemUiVisibility(I)V
+      000d: return-void              
+
+    .method private synthetic lambda$goBackground$1()V   [code_off=8500]
+      # registers=2 ins=1 outs=2 tries=0 insns=5
+      0000: const/4                  v0, #1
+      0001: invoke-virtual           {v1, v0}, Lcom/dshpet/webfish/MainActivity;->moveTaskToBack(Z)Z
+      0004: return-void              
+
+    .method private synthetic lambda$onCreate$0()V   [code_off=8528]
+      # registers=2 ins=1 outs=1 tries=1 insns=12
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/MainActivity;->bridge:Lcom/dshpet/webfish/PetBridge;
+      0002: if-eqz                   v0, +9
+      0004: iget-object              v0, v1, Lcom/dshpet/webfish/MainActivity;->bridge:Lcom/dshpet/webfish/PetBridge;
+      0006: invoke-virtual           {v0}, Lcom/dshpet/webfish/PetBridge;->enterOverlay()Ljava/lang/String;
+      0009: goto                     +11
+      000a: move-exception           v0
+      000b: return-void              
+  .virtual_methods:
+
+    .method public goBackground()V   [code_off=8420]
+      # registers=2 ins=1 outs=2 tries=0 insns=9
+      0000: new-instance             v0, idx=54
+      0002: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;-><init>(Lcom/dshpet/webfish/MainActivity;)V
+      0005: invoke-virtual           {v1, v0}, Lcom/dshpet/webfish/MainActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+      0008: return-void              
+
+    .method public onBackPressed()V   [code_off=8580]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-virtual           {v0}, Lcom/dshpet/webfish/MainActivity;->finish()V
+      0003: return-void              
+
+    .method protected onCreate(Landroid/os/Bundle;)V   [code_off=8604]
+      # registers=7 ins=2 outs=4 tries=1 insns=160
+      0000: invoke-super             {v5, v6}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+      0003: invoke-virtual           {v5}, Lcom/dshpet/webfish/MainActivity;->getWindow()Landroid/view/Window;
+      0006: move-result-object       v0
+      0007: const/16                 v1, +128
+      0009: invoke-virtual           {v0, v1}, Landroid/view/Window;->addFlags(I)V
+      000c: sget                     Landroid/os/Build$VERSION;->SDK_INT:I
+      000e: const/16                 v1, +28
+      0010: const/4                  v2, #1
+      0011: if-lt                    v0, v1, +12
+      0013: invoke-virtual           {v5}, Lcom/dshpet/webfish/MainActivity;->getWindow()Landroid/view/Window;
+      0016: move-result-object       v0
+      0017: invoke-virtual           {v0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
+      001a: move-result-object       v0
+      001b: iput                     v2, v0, Landroid/view/WindowManager$LayoutParams;->layoutInDisplayCutoutMode:I
+      001d: invoke-direct            {v5}, Lcom/dshpet/webfish/MainActivity;->hideSystemUi()V
+      0020: new-instance             v0, idx=49
+      0022: invoke-direct            {v0, v5}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
+      0025: iput-object              v0, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0027: iget-object              v0, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0029: const/4                  v1, #0
+      002a: invoke-virtual           {v0, v1}, Landroid/webkit/WebView;->setBackgroundColor(I)V
+      002d: iget-object              v0, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      002f: invoke-virtual           {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+      0032: move-result-object       v0
+      0033: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+      0036: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+      0039: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setAllowFileAccess(Z)V
+      003c: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setAllowFileAccessFromFileURLs(Z)V
+      003f: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs(Z)V
+      0042: invoke-virtual           {v0, v1}, Landroid/webkit/WebSettings;->setMediaPlaybackRequiresUserGesture(Z)V
+      0045: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setLoadWithOverviewMode(Z)V
+      0048: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
+      004b: invoke-virtual           {v0, v1}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
+      004e: const/4                  v2, #2
+      004f: invoke-virtual           {v0, v2}, Landroid/webkit/WebSettings;->setCacheMode(I)V
+      0052: const/16                 v3, +100
+      0054: invoke-virtual           {v0, v3}, Landroid/webkit/WebSettings;->setTextZoom(I)V
+      0057: iget-object              v3, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0059: const/4                  v4, #0
+      005a: invoke-virtual           {v3, v2, v4}, Landroid/webkit/WebView;->setLayerType(ILandroid/graphics/Paint;)V
+      005d: invoke-static            {v5}, Lcom/dshpet/webfish/PetBridge;->setActivity(Lcom/dshpet/webfish/MainActivity;)V
+      0060: new-instance             v2, idx=71
+      0062: iget-object              v3, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0064: invoke-direct            {v2, v5, v3, v1}, Lcom/dshpet/webfish/PetBridge;-><init>(Landroid/content/Context;Landroid/webkit/WebView;Z)V
+      0067: iput-object              v2, v5, Lcom/dshpet/webfish/MainActivity;->bridge:Lcom/dshpet/webfish/PetBridge;
+      0069: iget-object              v2, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      006b: iget-object              v3, v5, Lcom/dshpet/webfish/MainActivity;->bridge:Lcom/dshpet/webfish/PetBridge;
+      006d: const-string             v4, "petHost"
+      006f: invoke-virtual           {v2, v3, v4}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
+      0072: iget-object              v2, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0074: invoke-virtual           {v5, v2}, Lcom/dshpet/webfish/MainActivity;->setContentView(Landroid/view/View;)V
+      0077: iget-object              v2, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0079: const-string             v3, "file:///android_asset/web/index.html?mode=app&v=1.9.4"
+      007b: invoke-virtual           {v2, v3}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+      007e: invoke-virtual           {v5}, Lcom/dshpet/webfish/MainActivity;->getIntent()Landroid/content/Intent;
+      0081: move-result-object       v2
+      0082: if-eqz                   v2, +28
+      0084: invoke-virtual           {v5}, Lcom/dshpet/webfish/MainActivity;->getIntent()Landroid/content/Intent;
+      0087: move-result-object       v2
+      0088: const-string             v3, "dbg_overlay"
+      008a: invoke-virtual           {v2, v3, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+      008d: move-result              v1
+      008e: if-eqz                   v1, +16
+      0090: iget-object              v1, v5, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0092: new-instance             v2, idx=55
+      0094: invoke-direct            {v2, v5}, Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;-><init>(Lcom/dshpet/webfish/MainActivity;)V
+      0097: const-wide/16            v3, +2600
+      0099: invoke-virtual           {v1, v2, v3, v4}, Landroid/webkit/WebView;->postDelayed(Ljava/lang/Runnable;J)Z
+      009c: goto                     +158
+      009d: move-exception           v1
+      009e: nop                      
+      009f: return-void              
+
+    .method protected onDestroy()V   [code_off=8952]
+      # registers=4 ins=1 outs=2 tries=0 insns=32
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0002: const/4                  v1, #0
+      0003: if-eqz                   v0, +23
+      0005: iget-object              v0, v3, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0007: const-string             v2, "petHost"
+      0009: invoke-virtual           {v0, v2}, Landroid/webkit/WebView;->removeJavascriptInterface(Ljava/lang/String;)V
+      000c: iget-object              v0, v3, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      000e: const-string             v2, "about:blank"
+      0010: invoke-virtual           {v0, v2}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+      0013: iget-object              v0, v3, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      0015: invoke-virtual           {v0}, Landroid/webkit/WebView;->destroy()V
+      0018: iput-object              v1, v3, Lcom/dshpet/webfish/MainActivity;->web:Landroid/webkit/WebView;
+      001a: iput-object              v1, v3, Lcom/dshpet/webfish/MainActivity;->bridge:Lcom/dshpet/webfish/PetBridge;
+      001c: invoke-super             {v3}, Landroid/app/Activity;->onDestroy()V
+      001f: return-void              
+
+    .method protected onResume()V   [code_off=9032]
+      # registers=5 ins=1 outs=3 tries=0 insns=38
+      0000: invoke-super             {v4}, Landroid/app/Activity;->onResume()V
+      0003: invoke-static            {}, Landroid/os/SystemClock;->elapsedRealtime()J
+      0006: move-result-wide         v0
+      0007: sget-wide                Lcom/dshpet/webfish/PetBridge;->overlayLaunchedAt:J
+      0009: sub-long/2addr           v0, v2
+      000a: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->isShown()Z
+      000d: move-result              v2
+      000e: if-eqz                   v2, +23
+      0010: const-wide/16            v2, +2000
+      0012: cmp-long                 v2, v0, v2
+      0014: if-lez                   v2, +17
+      0016: new-instance             v2, idx=13
+      0018: const-class              v3, Lcom/dshpet/webfish/OverlayService;
+      001a: invoke-direct            {v2, v4, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+      001d: const-string             v3, "com.dshpet.webfish.HIDE"
+      001f: invoke-virtual           {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+      0022: invoke-virtual           {v4, v2}, Lcom/dshpet/webfish/MainActivity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+      0025: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;)V   [code_off=9124]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=9152]
+      # registers=2 ins=1 outs=1 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: invoke-static            {v0}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$Rb648kjZP2a3XH8x19SR4VzxT-w(Lcom/dshpet/webfish/OverlayService;)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Landroid/view/View$OnTouchListener;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;)V   [code_off=9212]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z   [code_off=9180]
+      # registers=4 ins=3 outs=3 tries=0 insns=7
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: invoke-static            {v0, v2, v3}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$5k-3y82YmSMq8M6UitIGtFNHcKc(Lcom/dshpet/webfish/OverlayService;Landroid/view/View;Landroid/view/MotionEvent;)Z
+      0005: move-result              v2
+      0006: return                   v2
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+    f$1                                      Ljava/lang/String;             public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V   [code_off=9240]
+      # registers=3 ins=3 outs=1 tries=0 insns=8
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;->f$1:Ljava/lang/String;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=9272]
+      # registers=3 ins=1 outs=2 tries=0 insns=8
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: iget-object              v1, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;->f$1:Ljava/lang/String;
+      0004: invoke-static            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$rVZW2KXqEEGzXR2iepr6xd6GETQ(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V
+      0007: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+    f$1                                      Ljava/lang/String;             public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V   [code_off=9304]
+      # registers=3 ins=3 outs=1 tries=0 insns=8
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;->f$1:Ljava/lang/String;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=9336]
+      # registers=3 ins=1 outs=2 tries=0 insns=8
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: iget-object              v1, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;->f$1:Ljava/lang/String;
+      0004: invoke-static            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$VOz79oQ8CZlQsLsu2H-ng5cWhqw(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V
+      0007: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+    f$1                                      Landroid/content/res/Configuration; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;Landroid/content/res/Configuration;)V   [code_off=9368]
+      # registers=3 ins=3 outs=1 tries=0 insns=8
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;->f$1:Landroid/content/res/Configuration;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=9400]
+      # registers=3 ins=1 outs=2 tries=0 insns=8
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: iget-object              v1, v2, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;->f$1:Landroid/content/res/Configuration;
+      0004: invoke-static            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$yH7Ce5tW1xlafrUmSZy3TsjHo38(Lcom/dshpet/webfish/OverlayService;Landroid/content/res/Configuration;)V
+      0007: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;)V   [code_off=9432]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=9460]
+      # registers=2 ins=1 outs=1 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: invoke-static            {v0}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$rSh8CMP7aiHMxnLprqEaoCT8_3M(Lcom/dshpet/webfish/OverlayService;)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Landroid/view/Choreographer$FrameCallback;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/OverlayService; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/OverlayService;)V   [code_off=9488]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final doFrame(J)V   [code_off=9516]
+      # registers=4 ins=3 outs=3 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;->f$0:Lcom/dshpet/webfish/OverlayService;
+      0002: invoke-static            {v0, v2, v3}, Lcom/dshpet/webfish/OverlayService;->$r8$lambda$yz6xOe_t9LpUaWtRLISCyuaoqCE(Lcom/dshpet/webfish/OverlayService;J)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/OverlayService;  (public) super=Landroid/app/Service; ifaces=[] source=OverlayService.java
+  .static fields:
+    ACTION_HIDE                              Ljava/lang/String;             public static final
+    ACTION_SHOW                              Ljava/lang/String;             public static final
+    CHANNEL                                  Ljava/lang/String;             private static final
+    NOTIF_ID                                 I                              private static final
+    TAG                                      Ljava/lang/String;             private static final
+    instance                                 Lcom/dshpet/webfish/OverlayService; private static bridge
+  .instance fields:
+    added                                    Z                              private
+    applyScheduled                           Z                              private
+    bridge                                   Lcom/dshpet/webfish/PetBridge; private
+    crispMode                                Z                              private
+    hit                                      Landroid/view/View;            private
+    params                                   Landroid/view/WindowManager$LayoutParams; private
+    pendH                                    I                              private bridge
+    pendValid                                Z                              private bridge
+    pendW                                    I                              private bridge
+    pendX                                    I                              private bridge
+    pendY                                    I                              private bridge
+    renderHost                               Landroid/widget/FrameLayout;   private
+    rparams                                  Landroid/view/WindowManager$LayoutParams; private
+    ui                                       Landroid/os/Handler;           private final
+    web                                      Landroid/webkit/WebView;       private
+    wm                                       Landroid/view/WindowManager;   private
+  .direct_methods:
+
+    .method public static synthetic $r8$lambda$5k-3y82YmSMq8M6UitIGtFNHcKc(Lcom/dshpet/webfish/OverlayService;Landroid/view/View;Landroid/view/MotionEvent;)Z   [code_off=9708]
+      # registers=3 ins=3 outs=3 tries=0 insns=5
+      0000: invoke-direct            {v0, v1, v2}, Lcom/dshpet/webfish/OverlayService;->lambda$createWindows$0(Landroid/view/View;Landroid/view/MotionEvent;)Z
+      0003: move-result              v0
+      0004: return                   v0
+
+    .method public static synthetic $r8$lambda$Rb648kjZP2a3XH8x19SR4VzxT-w(Lcom/dshpet/webfish/OverlayService;)V   [code_off=11020]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Lcom/dshpet/webfish/OverlayService;->update()V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$VOz79oQ8CZlQsLsu2H-ng5cWhqw(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V   [code_off=11044]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->lambda$forwardTouch$1(Ljava/lang/String;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$rSh8CMP7aiHMxnLprqEaoCT8_3M(Lcom/dshpet/webfish/OverlayService;)V   [code_off=11068]
+      # registers=1 ins=1 outs=1 tries=0 insns=4
+      0000: invoke-direct            {v0}, Lcom/dshpet/webfish/OverlayService;->lambda$scheduleApply$4()V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$rVZW2KXqEEGzXR2iepr6xd6GETQ(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V   [code_off=11092]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->lambda$toast$2(Ljava/lang/String;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$yH7Ce5tW1xlafrUmSZy3TsjHo38(Lcom/dshpet/webfish/OverlayService;Landroid/content/res/Configuration;)V   [code_off=11116]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/OverlayService;->lambda$onConfigurationChanged$5(Landroid/content/res/Configuration;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$yz6xOe_t9LpUaWtRLISCyuaoqCE(Lcom/dshpet/webfish/OverlayService;J)V   [code_off=11140]
+      # registers=3 ins=3 outs=3 tries=0 insns=4
+      0000: invoke-direct            {v0, v1, v2}, Lcom/dshpet/webfish/OverlayService;->lambda$scheduleApply$3(J)V
+      0003: return-void              
+
+    .method public enum <init>()V   [code_off=11164]
+      # registers=3 ins=1 outs=2 tries=0 insns=22
+      0000: invoke-direct            {v2}, Landroid/app/Service;-><init>()V
+      0003: new-instance             v0, idx=24
+      0005: invoke-static            {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+      0008: move-result-object       v1
+      0009: invoke-direct            {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+      000c: iput-object              v0, v2, Lcom/dshpet/webfish/OverlayService;->ui:Landroid/os/Handler;
+      000e: const/4                  v0, #0
+      000f: iput-boolean             v0, v2, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      0011: iput-boolean             v0, v2, Lcom/dshpet/webfish/OverlayService;->pendValid:Z
+      0013: iput-boolean             v0, v2, Lcom/dshpet/webfish/OverlayService;->applyScheduled:Z
+      0015: return-void              
+
+    .method private applyPending()V   [code_off=11224]
+      # registers=10 ins=1 outs=3 tries=1 insns=115
+      0000: iget-boolean             v0, v9, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      0002: if-eqz                   v0, +5
+      0004: iget-object              v0, v9, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0006: goto                     +9
+      0007: iget-object              v0, v9, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0009: if-eqz                   v0, +105
+      000b: iget-object              v1, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      000d: if-eqz                   v1, +101
+      000f: iget-boolean             v1, v9, Lcom/dshpet/webfish/OverlayService;->pendValid:Z
+      0011: if-nez                   v1, +3
+      0013: goto                     +114
+      0014: const/4                  v1, #0
+      0015: iput-boolean             v1, v9, Lcom/dshpet/webfish/OverlayService;->pendValid:Z
+      0017: iget                     v1, v9, Lcom/dshpet/webfish/OverlayService;->pendX:I
+      0019: iget                     v2, v9, Lcom/dshpet/webfish/OverlayService;->pendY:I
+      001b: iget                     v3, v9, Lcom/dshpet/webfish/OverlayService;->pendW:I
+      001d: iget                     v4, v9, Lcom/dshpet/webfish/OverlayService;->pendH:I
+      001f: const/4                  v5, #0
+      0020: if-lez                   v3, +25
+      0022: if-lez                   v4, +23
+      0024: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0026: iget                     v6, v6, Landroid/view/WindowManager$LayoutParams;->width:I
+      0028: if-ne                    v6, v3, +8
+      002a: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      002c: iget                     v6, v6, Landroid/view/WindowManager$LayoutParams;->height:I
+      002e: if-eq                    v6, v4, +11
+      0030: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0032: iput                     v3, v6, Landroid/view/WindowManager$LayoutParams;->width:I
+      0034: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0036: iput                     v4, v6, Landroid/view/WindowManager$LayoutParams;->height:I
+      0038: const/4                  v5, #1
+      0039: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      003b: iget                     v6, v6, Landroid/view/WindowManager$LayoutParams;->x:I
+      003d: if-ne                    v6, v1, +8
+      003f: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0041: iget                     v6, v6, Landroid/view/WindowManager$LayoutParams;->y:I
+      0043: if-eq                    v6, v2, +11
+      0045: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0047: iput                     v1, v6, Landroid/view/WindowManager$LayoutParams;->x:I
+      0049: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      004b: iput                     v2, v6, Landroid/view/WindowManager$LayoutParams;->y:I
+      004d: const/4                  v5, #1
+      004e: if-eqz                   v5, +35
+      0050: iget-object              v6, v9, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0052: iget-object              v7, v9, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0054: invoke-interface         {v6, v0, v7}, Landroid/view/WindowManager;->updateViewLayout(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      0057: goto                     +113
+      0058: move-exception           v6
+      0059: new-instance             v7, idx=87
+      005b: invoke-direct            {v7}, Ljava/lang/StringBuilder;-><init>()V
+      005e: const-string             v8, "updateViewLayout(hit): "
+      0060: invoke-virtual           {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0063: move-result-object       v7
+      0064: invoke-virtual           {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      0067: move-result-object       v7
+      0068: invoke-virtual           {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      006b: move-result-object       v7
+      006c: const-string             v8, "OverlayService"
+      006e: invoke-static            {v8, v7}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      0071: return-void              
+      0072: return-void              
+
+    .method private applyScreenSize()V   [code_off=11484]
+      # registers=8 ins=1 outs=3 tries=1 insns=94
+      0000: new-instance             v0, idx=31
+      0002: invoke-direct            {v0}, Landroid/util/DisplayMetrics;-><init>()V
+      0005: iget-object              v1, v7, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0007: invoke-interface         {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+      000a: move-result-object       v1
+      000b: if-eqz                   v1, +5
+      000d: invoke-virtual           {v1, v0}, Landroid/view/Display;->getRealMetrics(Landroid/util/DisplayMetrics;)V
+      0010: iget                     v2, v0, Landroid/util/DisplayMetrics;->widthPixels:I
+      0012: if-lez                   v2, +5
+      0014: iget                     v2, v0, Landroid/util/DisplayMetrics;->widthPixels:I
+      0016: goto                     +25
+      0017: const/16                 v2, +1080
+      0019: iget                     v3, v0, Landroid/util/DisplayMetrics;->heightPixels:I
+      001b: if-lez                   v3, +5
+      001d: iget                     v3, v0, Landroid/util/DisplayMetrics;->heightPixels:I
+      001f: goto                     +34
+      0020: const/16                 v3, +1920
+      0022: iget-object              v4, v7, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0024: iput                     v2, v4, Landroid/view/WindowManager$LayoutParams;->width:I
+      0026: iget-object              v4, v7, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0028: iput                     v3, v4, Landroid/view/WindowManager$LayoutParams;->height:I
+      002a: iget-object              v4, v7, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      002c: const/4                  v5, #0
+      002d: iput                     v5, v4, Landroid/view/WindowManager$LayoutParams;->x:I
+      002f: iget-object              v4, v7, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0031: iput                     v5, v4, Landroid/view/WindowManager$LayoutParams;->y:I
+      0033: iget-object              v4, v7, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0035: iget-object              v5, v7, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0037: if-eqz                   v5, +5
+      0039: iget-object              v5, v7, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      003b: goto                     +62
+      003c: iget-object              v5, v7, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      003e: iget-object              v6, v7, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0040: invoke-interface         {v4, v5, v6}, Landroid/view/WindowManager;->updateViewLayout(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      0043: goto                     +93
+      0044: move-exception           v0
+      0045: new-instance             v1, idx=87
+      0047: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      004a: const-string             v2, "applyScreenSize: "
+      004c: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      004f: move-result-object       v1
+      0050: invoke-virtual           {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      0053: move-result-object       v1
+      0054: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0057: move-result-object       v1
+      0058: const-string             v2, "OverlayService"
+      005a: invoke-static            {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      005d: return-void              
+
+    .method private buildNotification()Landroid/app/Notification;   [code_off=9544]
+      # registers=7 ins=1 outs=4 tries=0 insns=63
+      0000: new-instance             v0, idx=13
+      0002: const-class              v1, Lcom/dshpet/webfish/MainActivity;
+      0004: invoke-direct            {v0, v6, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+      0007: const/high16             v1, #268435456
+      0009: invoke-virtual           {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+      000c: const/high16             v1, #134217728
+      000e: const/high16             v2, #67108864
+      0010: or-int/2addr             v1, v2
+      0011: const/4                  v2, #0
+      0012: invoke-static            {v6, v2, v0, v1}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+      0015: move-result-object       v2
+      0016: nop                      
+      0017: new-instance             v3, idx=5
+      0019: const-string             v4, "pet_overlay"
+      001b: invoke-direct            {v3, v6, v4}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+      001e: nop                      
+      001f: const-string             v4, "蓝色大肥鱼"
+      0021: invoke-virtual           {v3, v4}, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+      0024: move-result-object       v4
+      0025: const-string             v5, "正在陪着你（点这里回到应用）"
+      0027: invoke-virtual           {v4, v5}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+      002a: move-result-object       v4
+      002b: const                    v5, #17301561
+      002e: invoke-virtual           {v4, v5}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
+      0031: move-result-object       v4
+      0032: invoke-virtual           {v4, v2}, Landroid/app/Notification$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+      0035: move-result-object       v4
+      0036: const/4                  v5, #1
+      0037: invoke-virtual           {v4, v5}, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
+      003a: invoke-virtual           {v3}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+      003d: move-result-object       v4
+      003e: return-object            v4
+
+    .method private createChannel()V   [code_off=11700]
+      # registers=6 ins=1 outs=4 tries=0 insns=27
+      0000: nop                      
+      0001: const-string             v0, "notification"
+      0003: invoke-virtual           {v5, v0}, Lcom/dshpet/webfish/OverlayService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+      0006: move-result-object       v0
+      0007: check-cast               v0, idx=8
+      0009: new-instance             v1, idx=7
+      000b: const-string             v2, "桌宠悬浮"
+      000d: const/4                  v3, #2
+      000e: const-string             v4, "pet_overlay"
+      0010: invoke-direct            {v1, v4, v2, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+      0013: const/4                  v2, #0
+      0014: invoke-virtual           {v1, v2}, Landroid/app/NotificationChannel;->setShowBadge(Z)V
+      0017: invoke-virtual           {v0, v1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+      001a: return-void              
+
+    .method private createWindows(I)Z   [code_off=9736]
+      # registers=22 ins=2 outs=6 tries=4 insns=383
+      0000: move-object/from16       v1, v20
+      0002: const-string             v2, "OverlayService"
+      0004: const/4                  v3, #0
+      0005: const/4                  v4, #0
+      0006: new-instance             v0, idx=49
+      0008: invoke-direct            {v0, v1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
+      000b: iput-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      000d: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      000f: invoke-virtual           {v0, v4}, Landroid/webkit/WebView;->setBackgroundColor(I)V
+      0012: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0014: invoke-virtual           {v0}, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+      0017: move-result-object       v0
+      0018: const/4                  v5, #1
+      0019: invoke-virtual           {v0, v5}, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+      001c: invoke-virtual           {v0, v5}, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+      001f: invoke-virtual           {v0, v5}, Landroid/webkit/WebSettings;->setAllowFileAccess(Z)V
+      0022: invoke-virtual           {v0, v5}, Landroid/webkit/WebSettings;->setAllowFileAccessFromFileURLs(Z)V
+      0025: invoke-virtual           {v0, v5}, Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs(Z)V
+      0028: invoke-virtual           {v0, v4}, Landroid/webkit/WebSettings;->setMediaPlaybackRequiresUserGesture(Z)V
+      002b: invoke-virtual           {v0, v4}, Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
+      002e: invoke-virtual           {v0, v4}, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
+      0031: const/4                  v6, #2
+      0032: invoke-virtual           {v0, v6}, Landroid/webkit/WebSettings;->setCacheMode(I)V
+      0035: new-instance             v7, idx=71
+      0037: iget-object              v8, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0039: invoke-direct            {v7, v1, v8, v5}, Lcom/dshpet/webfish/PetBridge;-><init>(Landroid/content/Context;Landroid/webkit/WebView;Z)V
+      003c: iput-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->bridge:Lcom/dshpet/webfish/PetBridge;
+      003e: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0040: iget-object              v8, v1, Lcom/dshpet/webfish/OverlayService;->bridge:Lcom/dshpet/webfish/PetBridge;
+      0042: const-string             v9, "petHost"
+      0044: invoke-virtual           {v7, v8, v9}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
+      0047: const/16                 v7, +808
+      0049: iget-boolean             v8, v1, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      004b: if-nez                   v8, +4
+      004d: shl-int/lit8             v7, v7, #16
+      004f: move                     v12, v7
+      0050: new-instance             v8, idx=43
+      0052: const/16                 v10, +400
+      0054: const/4                  v13, #-3
+      0055: const/16                 v9, +400
+      0057: move/from16              v11, v21
+      0059: invoke-direct/range      {v8..v13}, Landroid/view/WindowManager$LayoutParams;-><init>(IIIII)V
+      005c: iput-object              v8, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      005e: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0060: const                    v8, #8388659
+      0063: iput                     v8, v7, Landroid/view/WindowManager$LayoutParams;->gravity:I
+      0065: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0067: iput                     v4, v7, Landroid/view/WindowManager$LayoutParams;->x:I
+      0069: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      006b: iput                     v4, v7, Landroid/view/WindowManager$LayoutParams;->y:I
+      006d: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      006f: const/high16             v9, #1065353216
+      0071: iput                     v9, v7, Landroid/view/WindowManager$LayoutParams;->alpha:F
+      0073: new-instance             v7, idx=38
+      0075: invoke-direct            {v7, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+      0078: iput-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      007a: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      007c: invoke-virtual           {v7, v4}, Landroid/view/View;->setBackgroundColor(I)V
+      007f: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0081: new-instance             v10, idx=58
+      0083: invoke-direct            {v10, v1}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;-><init>(Lcom/dshpet/webfish/OverlayService;)V
+      0086: invoke-virtual           {v7, v10}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+      0089: new-instance             v14, idx=43
+      008b: const/16                 v18, +808
+      008d: const/16                 v19, -3
+      008f: const/16                 v15, +240
+      0091: const/16                 v16, +300
+      0093: move/from16              v17, v21
+      0095: invoke-direct/range      {v14..v19}, Landroid/view/WindowManager$LayoutParams;-><init>(IIIII)V
+      0098: iput-object              v14, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      009a: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      009c: iput                     v8, v7, Landroid/view/WindowManager$LayoutParams;->gravity:I
+      009e: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00a0: iput                     v4, v7, Landroid/view/WindowManager$LayoutParams;->x:I
+      00a2: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00a4: iput                     v4, v7, Landroid/view/WindowManager$LayoutParams;->y:I
+      00a6: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00a8: iput                     v9, v7, Landroid/view/WindowManager$LayoutParams;->alpha:F
+      00aa: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      00ac: invoke-direct            {v1, v7}, Lcom/dshpet/webfish/OverlayService;->forceSrgb(Landroid/view/WindowManager$LayoutParams;)V
+      00af: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00b1: invoke-direct            {v1, v7}, Lcom/dshpet/webfish/OverlayService;->forceSrgb(Landroid/view/WindowManager$LayoutParams;)V
+      00b4: new-instance             v7, idx=51
+      00b6: invoke-direct            {v7, v1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+      00b9: iput-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00bb: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00bd: invoke-virtual           {v7, v4}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
+      00c0: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00c2: invoke-virtual           {v7, v6, v3}, Landroid/widget/FrameLayout;->setLayerType(ILandroid/graphics/Paint;)V
+      00c5: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00c7: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      00c9: new-instance             v8, idx=50
+      00cb: const/4                  v9, #-1
+      00cc: invoke-direct            {v8, v9, v9}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
+      00cf: invoke-virtual           {v6, v7, v8}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      00d2: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      00d4: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00d6: iget-object              v8, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      00d8: invoke-interface         {v6, v7, v8}, Landroid/view/WindowManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      00db: iput-boolean             v5, v1, Lcom/dshpet/webfish/OverlayService;->added:Z
+      00dd: iget-boolean             v6, v1, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      00df: if-eqz                   v6, +14
+      00e1: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      00e3: iput-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00e5: iput-object              v3, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      00e7: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      00e9: invoke-virtual           {v6, v4, v3}, Landroid/widget/FrameLayout;->setLayerType(ILandroid/graphics/Paint;)V
+      00ec: goto                     +249
+      00ed: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      00ef: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      00f1: iget-object              v8, v1, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      00f3: invoke-interface         {v6, v7, v8}, Landroid/view/WindowManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      00f6: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->applyScreenSize()V
+      00f9: iget-object              v6, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      00fb: const-string             v7, "file:///android_asset/web/index.html?mode=overlay&render=1&v=1.9.4"
+      00fd: invoke-virtual           {v6, v7}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+      0100: new-instance             v6, idx=87
+      0102: invoke-direct            {v6}, Ljava/lang/StringBuilder;-><init>()V
+      0105: const-string             v7, "params alpha="
+      0107: invoke-virtual           {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      010a: move-result-object       v6
+      010b: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      010d: iget                     v7, v7, Landroid/view/WindowManager$LayoutParams;->alpha:F
+      010f: invoke-virtual           {v6, v7}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+      0112: move-result-object       v6
+      0113: const-string             v7, " webAlpha="
+      0115: invoke-virtual           {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0118: move-result-object       v6
+      0119: iget-object              v7, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      011b: invoke-virtual           {v7}, Landroid/webkit/WebView;->getAlpha()F
+      011e: move-result              v7
+      011f: invoke-virtual           {v6, v7}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+      0122: move-result-object       v6
+      0123: invoke-virtual           {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0126: move-result-object       v6
+      0127: invoke-static            {v2, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+      012a: return                   v5
+      012b: move-exception           v0
+      012c: move-object              v5, v0
+      012d: new-instance             v0, idx=87
+      012f: invoke-direct            {v0}, Ljava/lang/StringBuilder;-><init>()V
+      0132: const-string             v6, "createWindows(type="
+      0134: invoke-virtual           {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0137: move-result-object       v0
+      0138: move/from16              v11, v21
+      013a: invoke-virtual           {v0, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      013d: move-result-object       v0
+      013e: const-string             v6, ") failed: "
+      0140: invoke-virtual           {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0143: move-result-object       v0
+      0144: invoke-virtual           {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      0147: move-result-object       v0
+      0148: invoke-virtual           {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      014b: move-result-object       v0
+      014c: invoke-static            {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      014f: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0151: if-eqz                   v0, +13
+      0153: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0155: iget-object              v2, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0157: invoke-interface         {v0, v2}, Landroid/view/WindowManager;->removeView(Landroid/view/View;)V
+      015a: iput-object              v3, v1, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      015c: goto                     +350
+      015d: move-exception           v0
+      015e: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0160: if-eqz                   v0, +13
+      0162: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0164: iget-object              v2, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0166: invoke-interface         {v0, v2}, Landroid/view/WindowManager;->removeView(Landroid/view/View;)V
+      0169: iput-object              v3, v1, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      016b: goto                     +365
+      016c: move-exception           v0
+      016d: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      016f: if-eqz                   v0, +13
+      0171: iget-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0173: invoke-virtual           {v0}, Landroid/webkit/WebView;->destroy()V
+      0176: iput-object              v3, v1, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0178: iput-object              v3, v1, Lcom/dshpet/webfish/OverlayService;->bridge:Lcom/dshpet/webfish/PetBridge;
+      017a: goto                     +380
+      017b: move-exception           v0
+      017c: iput-boolean             v4, v1, Lcom/dshpet/webfish/OverlayService;->added:Z
+      017e: return                   v4
+
+    .method private density()F   [code_off=10780]
+      # registers=3 ins=1 outs=1 tries=0 insns=20
+      0000: invoke-virtual           {v2}, Lcom/dshpet/webfish/OverlayService;->getResources()Landroid/content/res/Resources;
+      0003: move-result-object       v0
+      0004: invoke-virtual           {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+      0007: move-result-object       v0
+      0008: iget                     v0, v0, Landroid/util/DisplayMetrics;->density:F
+      000a: const/4                  v1, #0
+      000b: cmpg-float               v1, v0, v1
+      000d: if-gtz                   v1, +5
+      000f: const/high16             v1, #1065353216
+      0011: goto                     +19
+      0012: move                     v1, v0
+      0013: return                   v1
+
+    .method private forceSrgb(Landroid/view/WindowManager$LayoutParams;)V   [code_off=11772]
+      # registers=8 ins=2 outs=3 tries=1 insns=100
+      0000: const-string             v0, "OverlayService"
+      0002: if-nez                   v7, +3
+      0004: return-void              
+      0005: invoke-virtual           {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+      0008: move-result-object       v1
+      0009: const-string             v2, "setColorMode"
+      000b: const/4                  v3, #1
+      000c: new-array                v3, v3, Landroid/content/Context;->getPackageName:Lcom/dshpet/webfish/BuildConfig;
+      000e: sget-object              Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+      0010: const/4                  v5, #0
+      0011: aput-object              v4, v3, v5
+      0013: invoke-virtual           {v1, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      0016: move-result-object       v1
+      0017: invoke-static            {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+      001a: move-result-object       v2
+      001b: filled-new-array         {v2}, Landroid/webkit/WebView;->setLayerType(ILandroid/graphics/Paint;)V
+      001e: move-result-object       v2
+      001f: invoke-virtual           {v1, v7, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      0022: invoke-virtual           {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+      0025: move-result-object       v2
+      0026: const-string             v3, "getColorMode"
+      0028: new-array                v4, v5, Landroid/content/Context;->getPackageName:Lcom/dshpet/webfish/BuildConfig;
+      002a: invoke-virtual           {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      002d: move-result-object       v2
+      002e: new-instance             v3, idx=87
+      0030: invoke-direct            {v3}, Ljava/lang/StringBuilder;-><init>()V
+      0033: const-string             v4, "colorMode set -> "
+      0035: invoke-virtual           {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0038: move-result-object       v3
+      0039: new-array                v4, v5, Landroid/content/Context;->getResources:Landroid/speech/tts/TextToSpeech$OnInitListener;
+      003b: invoke-virtual           {v2, v7, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      003e: move-result-object       v4
+      003f: invoke-virtual           {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      0042: move-result-object       v3
+      0043: invoke-virtual           {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0046: move-result-object       v3
+      0047: invoke-static            {v0, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+      004a: nop                      
+      004b: goto                     +99
+      004c: move-exception           v1
+      004d: new-instance             v2, idx=87
+      004f: invoke-direct            {v2}, Ljava/lang/StringBuilder;-><init>()V
+      0052: const-string             v3, "colorMode not set: "
+      0054: invoke-virtual           {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0057: move-result-object       v2
+      0058: invoke-virtual           {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      005b: move-result-object       v2
+      005c: invoke-virtual           {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      005f: move-result-object       v2
+      0060: invoke-static            {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      0063: return-void              
+
+    .method private forwardTouch(Landroid/view/MotionEvent;)V   [code_off=12000]
+      # registers=10 ins=2 outs=3 tries=0 insns=106
+      0000: iget-object              v0, v8, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0002: if-nez                   v0, +3
+      0004: return-void              
+      0005: invoke-virtual           {v9}, Landroid/view/MotionEvent;->getActionMasked()I
+      0008: move-result              v0
+      0009: packed-switch            v0, 94
+      000c: return-void              
+      000d: const-string             v1, "cancel"
+      000f: goto                     +24
+      0010: const-string             v1, "move"
+      0012: goto                     +24
+      0013: const-string             v1, "up"
+      0015: goto                     +24
+      0016: const-string             v1, "down"
+      0018: invoke-direct            {v8}, Lcom/dshpet/webfish/OverlayService;->density()F
+      001b: move-result              v2
+      001c: invoke-virtual           {v9}, Landroid/view/MotionEvent;->getRawX()F
+      001f: move-result              v3
+      0020: div-float/2addr          v3, v2
+      0021: invoke-virtual           {v9}, Landroid/view/MotionEvent;->getRawY()F
+      0024: move-result              v4
+      0025: div-float/2addr          v4, v2
+      0026: new-instance             v5, idx=87
+      0028: invoke-direct            {v5}, Ljava/lang/StringBuilder;-><init>()V
+      002b: const-string             v6, "window.__petTouch&&window.__petTouch('"
+      002d: invoke-virtual           {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0030: move-result-object       v5
+      0031: invoke-virtual           {v5, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0034: move-result-object       v5
+      0035: const-string             v6, "',"
+      0037: invoke-virtual           {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      003a: move-result-object       v5
+      003b: invoke-virtual           {v5, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+      003e: move-result-object       v5
+      003f: const-string             v6, ","
+      0041: invoke-virtual           {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0044: move-result-object       v5
+      0045: invoke-virtual           {v5, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+      0048: move-result-object       v5
+      0049: const-string             v6, ")"
+      004b: invoke-virtual           {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      004e: move-result-object       v5
+      004f: invoke-virtual           {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0052: move-result-object       v5
+      0053: iget-object              v6, v8, Lcom/dshpet/webfish/OverlayService;->ui:Landroid/os/Handler;
+      0055: new-instance             v7, idx=60
+      0057: invoke-direct            {v7, v8, v5}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;-><init>(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V
+      005a: invoke-virtual           {v6, v7}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      005d: return-void              
+      005e: nop                      
+      005f: move-wide                v0, v0
+      0060: nop                      
+      0061: nop                      
+      0062: move-exception           v0
+      0063: nop                      
+      0064: move-result              v0
+      0065: nop                      
+      0066: move-object              v0, v0
+      0067: nop                      
+      0068: move-wide                v0, v0
+      0069: nop                      
+
+    .method public static getInstance()Lcom/dshpet/webfish/OverlayService;   [code_off=10756]
+      # registers=1 ins=0 outs=0 tries=0 insns=3
+      0000: sget-object              Lcom/dshpet/webfish/OverlayService;->instance:Lcom/dshpet/webfish/OverlayService;
+      0002: return-object            v0
+
+    .method private hideOverlay()V   [code_off=12228]
+      # registers=4 ins=1 outs=2 tries=2 insns=59
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0002: const/4                  v1, #0
+      0003: if-eqz                   v0, +13
+      0005: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0007: iget-object              v2, v3, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0009: invoke-interface         {v0, v2}, Landroid/view/WindowManager;->removeView(Landroid/view/View;)V
+      000c: goto                     +14
+      000d: move-exception           v0
+      000e: iput-object              v1, v3, Lcom/dshpet/webfish/OverlayService;->hit:Landroid/view/View;
+      0010: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0012: if-eqz                   v0, +13
+      0014: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0016: iget-object              v2, v3, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0018: invoke-interface         {v0, v2}, Landroid/view/WindowManager;->removeView(Landroid/view/View;)V
+      001b: goto                     +29
+      001c: move-exception           v0
+      001d: iput-object              v1, v3, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      001f: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0021: if-eqz                   v0, +25
+      0023: iget-boolean             v0, v3, Lcom/dshpet/webfish/OverlayService;->added:Z
+      0025: if-eqz                   v0, +21
+      0027: const/4                  v0, #0
+      0028: iput-boolean             v0, v3, Lcom/dshpet/webfish/OverlayService;->added:Z
+      002a: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      002c: const-string             v2, "petHost"
+      002e: invoke-virtual           {v0, v2}, Landroid/webkit/WebView;->removeJavascriptInterface(Ljava/lang/String;)V
+      0031: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0033: invoke-virtual           {v0}, Landroid/webkit/WebView;->destroy()V
+      0036: iput-object              v1, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0038: iput-object              v1, v3, Lcom/dshpet/webfish/OverlayService;->bridge:Lcom/dshpet/webfish/PetBridge;
+      003a: return-void              
+
+    .method public static isShown()Z   [code_off=10592]
+      # registers=2 ins=0 outs=0 tries=0 insns=16
+      0000: sget-object              Lcom/dshpet/webfish/OverlayService;->instance:Lcom/dshpet/webfish/OverlayService;
+      0002: if-eqz                   v0, +12
+      0004: iget-boolean             v1, v0, Lcom/dshpet/webfish/OverlayService;->added:Z
+      0006: if-eqz                   v1, +8
+      0008: iget-object              v1, v0, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      000a: if-eqz                   v1, +4
+      000c: const/4                  v1, #1
+      000d: goto                     +15
+      000e: const/4                  v1, #0
+      000f: return                   v1
+
+    .method private synthetic lambda$createWindows$0(Landroid/view/View;Landroid/view/MotionEvent;)Z   [code_off=10640]
+      # registers=4 ins=3 outs=2 tries=0 insns=5
+      0000: invoke-direct            {v1, v3}, Lcom/dshpet/webfish/OverlayService;->forwardTouch(Landroid/view/MotionEvent;)V
+      0003: const/4                  v0, #1
+      0004: return                   v0
+
+    .method private synthetic lambda$forwardTouch$1(Ljava/lang/String;)V   [code_off=12388]
+      # registers=4 ins=2 outs=3 tries=1 insns=9
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0002: const/4                  v1, #0
+      0003: invoke-virtual           {v0, v3, v1}, Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
+      0006: goto                     +8
+      0007: move-exception           v0
+      0008: return-void              
+
+    .method private synthetic lambda$onConfigurationChanged$5(Landroid/content/res/Configuration;)V   [code_off=12436]
+      # registers=6 ins=2 outs=3 tries=1 insns=90
+      0000: const-string             v0, "OverlayService"
+      0002: iget-object              v1, v4, Lcom/dshpet/webfish/OverlayService;->renderHost:Landroid/widget/FrameLayout;
+      0004: if-eqz                   v1, +13
+      0006: iget-object              v1, v4, Lcom/dshpet/webfish/OverlayService;->rparams:Landroid/view/WindowManager$LayoutParams;
+      0008: if-eqz                   v1, +9
+      000a: iget-boolean             v1, v4, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      000c: if-nez                   v1, +5
+      000e: invoke-direct            {v4}, Lcom/dshpet/webfish/OverlayService;->applyScreenSize()V
+      0011: iget-object              v1, v4, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0013: if-eqz                   v1, +10
+      0015: iget-object              v1, v4, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0017: const-string             v2, "window.__orientationChanged&&window.__orientationChanged()"
+      0019: const/4                  v3, #0
+      001a: invoke-virtual           {v1, v2, v3}, Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
+      001d: new-instance             v1, idx=87
+      001f: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0022: const-string             v2, "orientation changed, w="
+      0024: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0027: move-result-object       v1
+      0028: iget                     v2, v5, Landroid/content/res/Configuration;->screenWidthDp:I
+      002a: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      002d: move-result-object       v1
+      002e: const-string             v2, " h="
+      0030: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0033: move-result-object       v1
+      0034: iget                     v2, v5, Landroid/content/res/Configuration;->screenHeightDp:I
+      0036: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      0039: move-result-object       v1
+      003a: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      003d: move-result-object       v1
+      003e: invoke-static            {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+      0041: goto                     +89
+      0042: move-exception           v1
+      0043: new-instance             v2, idx=87
+      0045: invoke-direct            {v2}, Ljava/lang/StringBuilder;-><init>()V
+      0048: const-string             v3, "onConfigurationChanged: "
+      004a: invoke-virtual           {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      004d: move-result-object       v2
+      004e: invoke-virtual           {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      0051: move-result-object       v2
+      0052: invoke-virtual           {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0055: move-result-object       v2
+      0056: invoke-static            {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      0059: return-void              
+
+    .method private synthetic lambda$scheduleApply$3(J)V   [code_off=12644]
+      # registers=4 ins=3 outs=1 tries=0 insns=7
+      0000: const/4                  v0, #0
+      0001: iput-boolean             v0, v1, Lcom/dshpet/webfish/OverlayService;->applyScheduled:Z
+      0003: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->applyPending()V
+      0006: return-void              
+
+    .method private synthetic lambda$scheduleApply$4()V   [code_off=12676]
+      # registers=3 ins=1 outs=2 tries=0 insns=14
+      0000: nop                      
+      0001: invoke-static            {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
+      0004: move-result-object       v0
+      0005: new-instance             v1, idx=63
+      0007: invoke-direct            {v1, v2}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;-><init>(Lcom/dshpet/webfish/OverlayService;)V
+      000a: invoke-virtual           {v0, v1}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
+      000d: return-void              
+
+    .method private synthetic lambda$toast$2(Ljava/lang/String;)V   [code_off=12720]
+      # registers=4 ins=2 outs=3 tries=0 insns=13
+      0000: invoke-virtual           {v2}, Lcom/dshpet/webfish/OverlayService;->getApplicationContext()Landroid/content/Context;
+      0003: move-result-object       v0
+      0004: const/4                  v1, #1
+      0005: invoke-static            {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+      0008: move-result-object       v0
+      0009: invoke-virtual           {v0}, Landroid/widget/Toast;->show()V
+      000c: return-void              
+
+    .method private readCrispSetting()Z   [code_off=10668]
+      # registers=5 ins=1 outs=3 tries=1 insns=29
+      0000: const/4                  v0, #0
+      0001: const-string             v1, "dsh_pet_kv"
+      0003: invoke-virtual           {v4, v1, v0}, Lcom/dshpet/webfish/OverlayService;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+      0006: move-result-object       v1
+      0007: const-string             v2, "settings"
+      0009: const-string             v3, ""
+      000b: invoke-interface         {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      000e: move-result-object       v1
+      000f: if-eqz                   v1, +11
+      0011: const-string             v2, "\"overlayCrisp\":true"
+      0013: invoke-virtual           {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+      0016: move-result              v2
+      0017: if-eqz                   v2, +3
+      0019: const/4                  v0, #1
+      001a: return                   v0
+      001b: move-exception           v1
+      001c: return                   v0
+
+    .method private scheduleApply()V   [code_off=12940]
+      # registers=3 ins=1 outs=2 tries=0 insns=19
+      0000: iget-boolean             v0, v2, Lcom/dshpet/webfish/OverlayService;->applyScheduled:Z
+      0002: if-eqz                   v0, +3
+      0004: return-void              
+      0005: const/4                  v0, #1
+      0006: iput-boolean             v0, v2, Lcom/dshpet/webfish/OverlayService;->applyScheduled:Z
+      0008: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService;->ui:Landroid/os/Handler;
+      000a: new-instance             v1, idx=62
+      000c: invoke-direct            {v1, v2}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;-><init>(Lcom/dshpet/webfish/OverlayService;)V
+      000f: invoke-virtual           {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      0012: return-void              
+
+    .method private showOverlay()V   [code_off=13048]
+      # registers=6 ins=1 outs=2 tries=0 insns=75
+      0000: iget-object              v0, v5, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0002: if-eqz                   v0, +3
+      0004: return-void              
+      0005: nop                      
+      0006: const/16                 v0, +2002
+      0008: const/16                 v1, +2038
+      000a: filled-new-array         {v0, v1}, Landroid/webkit/WebView;->removeJavascriptInterface(Ljava/lang/String;)V
+      000d: move-result-object       v0
+      000e: invoke-direct            {v5}, Lcom/dshpet/webfish/OverlayService;->readCrispSetting()Z
+      0011: move-result              v1
+      0012: iput-boolean             v1, v5, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      0014: array-length             v1, v0
+      0015: const/4                  v2, #0
+      0016: if-ge                    v2, v1, +44
+      0018: aget                     v3, v0, v2
+      001a: invoke-direct            {v5, v3}, Lcom/dshpet/webfish/OverlayService;->createWindows(I)Z
+      001d: move-result              v4
+      001e: if-eqz                   v4, +33
+      0020: new-instance             v1, idx=87
+      0022: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0025: const-string             v2, "overlay shown (dual window, type="
+      0027: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      002a: move-result-object       v1
+      002b: invoke-virtual           {v1, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      002e: move-result-object       v1
+      002f: const-string             v2, ")"
+      0031: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0034: move-result-object       v1
+      0035: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0038: move-result-object       v1
+      0039: const-string             v2, "OverlayService"
+      003b: invoke-static            {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+      003e: return-void              
+      003f: mul-int/lit8             v2, v2, #1
+      0041: goto                     +22
+      0042: const-string             v1, "悬浮窗没起来：多半是「显示在其他应用上层」没开"
+      0044: invoke-direct            {v5, v1}, Lcom/dshpet/webfish/OverlayService;->toast(Ljava/lang/String;)V
+      0047: invoke-virtual           {v5}, Lcom/dshpet/webfish/OverlayService;->stopSelf()V
+      004a: return-void              
+
+    .method private toast(Ljava/lang/String;)V   [code_off=13216]
+      # registers=4 ins=2 outs=3 tries=1 insns=21
+      0000: new-instance             v0, idx=24
+      0002: invoke-virtual           {v2}, Lcom/dshpet/webfish/OverlayService;->getMainLooper()Landroid/os/Looper;
+      0005: move-result-object       v1
+      0006: invoke-direct            {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+      0009: new-instance             v1, idx=59
+      000b: invoke-direct            {v1, v2, v3}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;-><init>(Lcom/dshpet/webfish/OverlayService;Ljava/lang/String;)V
+      000e: invoke-virtual           {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      0011: nop                      
+      0012: goto                     +20
+      0013: move-exception           v0
+      0014: return-void              
+
+    .method private update()V   [code_off=13288]
+      # registers=4 ins=1 outs=3 tries=1 insns=71
+      0000: iget-boolean             v0, v3, Lcom/dshpet/webfish/OverlayService;->added:Z
+      0002: if-eqz                   v0, +68
+      0004: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0006: if-eqz                   v0, +64
+      0008: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      000a: if-nez                   v0, +3
+      000c: goto                     +70
+      000d: invoke-static            {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+      0010: move-result-object       v0
+      0011: invoke-static            {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+      0014: move-result-object       v1
+      0015: if-eq                    v0, v1, +13
+      0017: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->ui:Landroid/os/Handler;
+      0019: new-instance             v1, idx=57
+      001b: invoke-direct            {v1, v3}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;-><init>(Lcom/dshpet/webfish/OverlayService;)V
+      001e: invoke-virtual           {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      0021: return-void              
+      0022: iget-object              v0, v3, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      0024: iget-object              v1, v3, Lcom/dshpet/webfish/OverlayService;->web:Landroid/webkit/WebView;
+      0026: iget-object              v2, v3, Lcom/dshpet/webfish/OverlayService;->params:Landroid/view/WindowManager$LayoutParams;
+      0028: invoke-interface         {v0, v1, v2}, Landroid/view/WindowManager;->updateViewLayout(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+      002b: goto                     +69
+      002c: move-exception           v0
+      002d: new-instance             v1, idx=87
+      002f: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0032: const-string             v2, "updateViewLayout: "
+      0034: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0037: move-result-object       v1
+      0038: invoke-virtual           {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+      003b: move-result-object       v1
+      003c: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      003f: move-result-object       v1
+      0040: const-string             v2, "OverlayService"
+      0042: invoke-static            {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      0045: return-void              
+      0046: return-void              
+  .virtual_methods:
+
+    .method public isCrispMode()Z   [code_off=10568]
+      # registers=2 ins=1 outs=0 tries=0 insns=3
+      0000: iget-boolean             v0, v1, Lcom/dshpet/webfish/OverlayService;->crispMode:Z
+      0002: return                   v0
+
+    .method public moveWindow(II)V   [code_off=12764]
+      # registers=4 ins=3 outs=1 tries=0 insns=11
+      0000: iput                     v2, v1, Lcom/dshpet/webfish/OverlayService;->pendX:I
+      0002: iput                     v3, v1, Lcom/dshpet/webfish/OverlayService;->pendY:I
+      0004: const/4                  v0, #1
+      0005: iput-boolean             v0, v1, Lcom/dshpet/webfish/OverlayService;->pendValid:Z
+      0007: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->scheduleApply()V
+      000a: return-void              
+
+    .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;   [code_off=9688]
+      # registers=3 ins=2 outs=0 tries=0 insns=2
+      0000: const/4                  v0, #0
+      0001: return-object            v0
+
+    .method public onConfigurationChanged(Landroid/content/res/Configuration;)V   [code_off=12804]
+      # registers=4 ins=2 outs=3 tries=0 insns=14
+      0000: invoke-super             {v2, v3}, Landroid/app/Service;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+      0003: iget-object              v0, v2, Lcom/dshpet/webfish/OverlayService;->ui:Landroid/os/Handler;
+      0005: new-instance             v1, idx=61
+      0007: invoke-direct            {v1, v2, v3}, Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;-><init>(Lcom/dshpet/webfish/OverlayService;Landroid/content/res/Configuration;)V
+      000a: invoke-virtual           {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      000d: return-void              
+
+    .method public onCreate()V   [code_off=12848]
+      # registers=2 ins=1 outs=2 tries=0 insns=19
+      0000: invoke-super             {v1}, Landroid/app/Service;->onCreate()V
+      0003: sput-object              Lcom/dshpet/webfish/OverlayService;->instance:Lcom/dshpet/webfish/OverlayService;
+      0005: const-string             v0, "window"
+      0007: invoke-virtual           {v1, v0}, Lcom/dshpet/webfish/OverlayService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+      000a: move-result-object       v0
+      000b: check-cast               v0, idx=44
+      000d: iput-object              v0, v1, Lcom/dshpet/webfish/OverlayService;->wm:Landroid/view/WindowManager;
+      000f: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->createChannel()V
+      0012: return-void              
+
+    .method public onDestroy()V   [code_off=12904]
+      # registers=2 ins=1 outs=1 tries=0 insns=10
+      0000: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->hideOverlay()V
+      0003: const/4                  v0, #0
+      0004: sput-object              Lcom/dshpet/webfish/OverlayService;->instance:Lcom/dshpet/webfish/OverlayService;
+      0006: invoke-super             {v1}, Landroid/app/Service;->onDestroy()V
+      0009: return-void              
+
+    .method public onStartCommand(Landroid/content/Intent;II)I   [code_off=10836]
+      # registers=9 ins=4 outs=3 tries=1 insns=77
+      0000: if-nez                   v6, +5
+      0002: const-string             v0, "com.dshpet.webfish.SHOW"
+      0004: goto                     +9
+      0005: invoke-virtual           {v6}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+      0008: move-result-object       v0
+      0009: const-string             v1, "com.dshpet.webfish.HIDE"
+      000b: invoke-virtual           {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+      000e: move-result              v1
+      000f: const/4                  v2, #2
+      0010: if-eqz                   v1, +9
+      0012: invoke-direct            {v5}, Lcom/dshpet/webfish/OverlayService;->hideOverlay()V
+      0015: invoke-virtual           {v5}, Lcom/dshpet/webfish/OverlayService;->stopSelf()V
+      0018: return                   v2
+      0019: invoke-direct            {v5}, Lcom/dshpet/webfish/OverlayService;->buildNotification()Landroid/app/Notification;
+      001c: move-result-object       v1
+      001d: const/16                 v3, +1001
+      001f: invoke-virtual           {v5, v3, v1}, Lcom/dshpet/webfish/OverlayService;->startForeground(ILandroid/app/Notification;)V
+      0022: goto                     +73
+      0023: move-exception           v1
+      0024: const-string             v3, "OverlayService"
+      0026: const-string             v4, "startForeground failed"
+      0028: invoke-static            {v3, v4, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+      002b: new-instance             v3, idx=87
+      002d: invoke-direct            {v3}, Ljava/lang/StringBuilder;-><init>()V
+      0030: const-string             v4, "通知栏常驻失败（不影响悬浮）："
+      0032: invoke-virtual           {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0035: move-result-object       v3
+      0036: invoke-virtual           {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+      0039: move-result-object       v4
+      003a: invoke-virtual           {v4}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+      003d: move-result-object       v4
+      003e: invoke-virtual           {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0041: move-result-object       v3
+      0042: invoke-virtual           {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0045: move-result-object       v3
+      0046: invoke-direct            {v5, v3}, Lcom/dshpet/webfish/OverlayService;->toast(Ljava/lang/String;)V
+      0049: invoke-direct            {v5}, Lcom/dshpet/webfish/OverlayService;->showOverlay()V
+      004c: return                   v2
+
+    .method public setWindowSize(II)V   [code_off=12996]
+      # registers=4 ins=3 outs=1 tries=0 insns=17
+      0000: if-lez                   v2, +16
+      0002: if-gtz                   v3, +3
+      0004: goto                     +16
+      0005: iput                     v2, v1, Lcom/dshpet/webfish/OverlayService;->pendW:I
+      0007: iput                     v3, v1, Lcom/dshpet/webfish/OverlayService;->pendH:I
+      0009: const/4                  v0, #1
+      000a: iput-boolean             v0, v1, Lcom/dshpet/webfish/OverlayService;->pendValid:Z
+      000c: invoke-direct            {v1}, Lcom/dshpet/webfish/OverlayService;->scheduleApply()V
+      000f: return-void              
+      0010: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/PetBridge; public final synthetic
+    f$1                                      Ljava/lang/String;             public final synthetic
+    f$2                                      Ljava/lang/String;             public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;)V   [code_off=13460]
+      # registers=4 ins=4 outs=1 tries=0 insns=10
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$1:Ljava/lang/String;
+      0007: iput-object              v3, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$2:Ljava/lang/String;
+      0009: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=13496]
+      # registers=4 ins=1 outs=3 tries=0 insns=10
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0002: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$1:Ljava/lang/String;
+      0004: iget-object              v2, v3, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;->f$2:Ljava/lang/String;
+      0006: invoke-static            {v0, v1, v2}, Lcom/dshpet/webfish/PetBridge;->$r8$lambda$Gg9TP7Br0JfeInf6uB2x3MP3h94(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;)V
+      0009: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/PetBridge; public final synthetic
+    f$1                                      Ljava/lang/String;             public final synthetic
+    f$2                                      Ljava/lang/String;             public final synthetic
+    f$3                                      Ljava/lang/String;             public final synthetic
+    f$4                                      Ljava/lang/String;             public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V   [code_off=13532]
+      # registers=6 ins=6 outs=1 tries=0 insns=14
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$1:Ljava/lang/String;
+      0007: iput-object              v3, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$2:Ljava/lang/String;
+      0009: iput-object              v4, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$3:Ljava/lang/String;
+      000b: iput-object              v5, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$4:Ljava/lang/String;
+      000d: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=13576]
+      # registers=6 ins=1 outs=5 tries=0 insns=14
+      0000: iget-object              v0, v5, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0002: iget-object              v1, v5, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$1:Ljava/lang/String;
+      0004: iget-object              v2, v5, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$2:Ljava/lang/String;
+      0006: iget-object              v3, v5, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$3:Ljava/lang/String;
+      0008: iget-object              v4, v5, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;->f$4:Ljava/lang/String;
+      000a: invoke-static            {v0, v1, v2, v3, v4}, Lcom/dshpet/webfish/PetBridge;->$r8$lambda$IWa6OOkA6THH3UXp5us5E2xciko(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      000d: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/PetBridge; public final synthetic
+    f$1                                      Lcom/dshpet/webfish/MainActivity; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/PetBridge;Lcom/dshpet/webfish/MainActivity;)V   [code_off=13620]
+      # registers=3 ins=3 outs=1 tries=0 insns=8
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;->f$1:Lcom/dshpet/webfish/MainActivity;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=13652]
+      # registers=3 ins=1 outs=2 tries=0 insns=8
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0002: iget-object              v1, v2, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;->f$1:Lcom/dshpet/webfish/MainActivity;
+      0004: invoke-static            {v0, v1}, Lcom/dshpet/webfish/PetBridge;->$r8$lambda$XYiIL0SRFTEheB9R1mfIMoLfahQ(Lcom/dshpet/webfish/PetBridge;Lcom/dshpet/webfish/MainActivity;)V
+      0007: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/MainActivity; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/MainActivity;)V   [code_off=13684]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=13712]
+      # registers=2 ins=1 outs=1 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;->f$0:Lcom/dshpet/webfish/MainActivity;
+      0002: invoke-static            {v0}, Lcom/dshpet/webfish/PetBridge;->lambda$exitApp$5(Lcom/dshpet/webfish/MainActivity;)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Ljava/lang/Runnable;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/PetBridge; public final synthetic
+    f$1                                      Ljava/lang/String;             public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;)V   [code_off=13740]
+      # registers=3 ins=3 outs=1 tries=0 insns=8
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0005: iput-object              v2, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;->f$1:Ljava/lang/String;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public final run()V   [code_off=13772]
+      # registers=3 ins=1 outs=2 tries=0 insns=8
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0002: iget-object              v1, v2, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;->f$1:Ljava/lang/String;
+      0004: invoke-static            {v0, v1}, Lcom/dshpet/webfish/PetBridge;->$r8$lambda$2RpXdD9tERV6ehid4WN_VV9fj1A(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;)V
+      0007: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;  (public final synthetic) super=Ljava/lang/Object; ifaces=['Landroid/speech/tts/TextToSpeech$OnInitListener;'] source=D8$$SyntheticClass
+  .instance fields:
+    f$0                                      Lcom/dshpet/webfish/PetBridge; public final synthetic
+  .direct_methods:
+
+    .method public synthetic enum <init>(Lcom/dshpet/webfish/PetBridge;)V   [code_off=13804]
+      # registers=2 ins=2 outs=1 tries=0 insns=6
+      0000: invoke-direct            {v0}, Ljava/lang/Object;-><init>()V
+      0003: iput-object              v1, v0, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0005: return-void              
+  .virtual_methods:
+
+    .method public final onInit(I)V   [code_off=13832]
+      # registers=3 ins=2 outs=2 tries=0 insns=6
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;->f$0:Lcom/dshpet/webfish/PetBridge;
+      0002: invoke-static            {v0, v2}, Lcom/dshpet/webfish/PetBridge;->$r8$lambda$l_q80Pc_l3HH7lgwzMbZoqb27L4(Lcom/dshpet/webfish/PetBridge;I)V
+      0005: return-void              
+
+--- CLASS Lcom/dshpet/webfish/PetBridge;  (public) super=Ljava/lang/Object; ifaces=[] source=PetBridge.java
+  .static fields:
+    TAG                                      Ljava/lang/String;             private static final
+    activityRef                              Ljava/lang/ref/WeakReference;  private static
+    overlayLaunchedAt                        J                              static bridge
+  .instance fields:
+    ctx                                      Landroid/content/Context;      private final
+    main                                     Landroid/os/Handler;           private final
+    overlay                                  Z                              private final
+    pool                                     Ljava/util/concurrent/ExecutorService; private final
+    tts                                      Landroid/speech/tts/TextToSpeech; private
+    ttsReady                                 Z                              private
+    webView                                  Landroid/webkit/WebView;       private final
+  .direct_methods:
+
+    .method public static synthetic $r8$lambda$2RpXdD9tERV6ehid4WN_VV9fj1A(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;)V   [code_off=15276]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/PetBridge;->lambda$toast$4(Ljava/lang/String;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$Gg9TP7Br0JfeInf6uB2x3MP3h94(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;)V   [code_off=15300]
+      # registers=3 ins=3 outs=3 tries=0 insns=4
+      0000: invoke-direct            {v0, v1, v2}, Lcom/dshpet/webfish/PetBridge;->lambda$httpPostAsync$2(Ljava/lang/String;Ljava/lang/String;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$IWa6OOkA6THH3UXp5us5E2xciko(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V   [code_off=15324]
+      # registers=5 ins=5 outs=5 tries=0 insns=4
+      0000: invoke-direct            {v0, v1, v2, v3, v4}, Lcom/dshpet/webfish/PetBridge;->lambda$httpPostAsync$3(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$XYiIL0SRFTEheB9R1mfIMoLfahQ(Lcom/dshpet/webfish/PetBridge;Lcom/dshpet/webfish/MainActivity;)V   [code_off=15348]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/PetBridge;->lambda$enterOverlay$0(Lcom/dshpet/webfish/MainActivity;)V
+      0003: return-void              
+
+    .method public static synthetic $r8$lambda$l_q80Pc_l3HH7lgwzMbZoqb27L4(Lcom/dshpet/webfish/PetBridge;I)V   [code_off=15372]
+      # registers=2 ins=2 outs=2 tries=0 insns=4
+      0000: invoke-direct            {v0, v1}, Lcom/dshpet/webfish/PetBridge;->lambda$ensureTts$1(I)V
+      0003: return-void              
+
+    .method static enum <clinit>()V   [code_off=15396]
+      # registers=2 ins=0 outs=2 tries=0 insns=13
+      0000: const-wide/16            v0, +0
+      0002: sput-wide                Lcom/dshpet/webfish/PetBridge;->overlayLaunchedAt:J
+      0004: new-instance             v0, idx=89
+      0006: const/4                  v1, #0
+      0007: invoke-direct            {v0, v1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+      000a: sput-object              Lcom/dshpet/webfish/PetBridge;->activityRef:Ljava/lang/ref/WeakReference;
+      000c: return-void              
+
+    .method public enum <init>(Landroid/content/Context;Landroid/webkit/WebView;Z)V   [code_off=15440]
+      # registers=6 ins=4 outs=2 tries=0 insns=32
+      0000: invoke-direct            {v2}, Ljava/lang/Object;-><init>()V
+      0003: new-instance             v0, idx=24
+      0005: invoke-static            {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+      0008: move-result-object       v1
+      0009: invoke-direct            {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+      000c: iput-object              v0, v2, Lcom/dshpet/webfish/PetBridge;->main:Landroid/os/Handler;
+      000e: const/4                  v0, #3
+      000f: invoke-static            {v0}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
+      0012: move-result-object       v0
+      0013: iput-object              v0, v2, Lcom/dshpet/webfish/PetBridge;->pool:Ljava/util/concurrent/ExecutorService;
+      0015: invoke-virtual           {v3}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+      0018: move-result-object       v0
+      0019: iput-object              v0, v2, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      001b: iput-object              v4, v2, Lcom/dshpet/webfish/PetBridge;->webView:Landroid/webkit/WebView;
+      001d: iput-boolean             v5, v2, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      001f: return-void              
+
+    .method private density()F   [code_off=14148]
+      # registers=2 ins=1 outs=1 tries=0 insns=13
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0002: invoke-virtual           {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+      0005: move-result-object       v0
+      0006: invoke-virtual           {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+      0009: move-result-object       v0
+      000a: iget                     v0, v0, Landroid/util/DisplayMetrics;->density:F
+      000c: return                   v0
+
+    .method private ensureTts()V   [code_off=15520]
+      # registers=4 ins=1 outs=3 tries=0 insns=20
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0002: if-eqz                   v0, +3
+      0004: return-void              
+      0005: new-instance             v0, idx=30
+      0007: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0009: new-instance             v2, idx=70
+      000b: invoke-direct            {v2, v3}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;-><init>(Lcom/dshpet/webfish/PetBridge;)V
+      000e: invoke-direct            {v0, v1, v2}, Landroid/speech/tts/TextToSpeech;-><init>(Landroid/content/Context;Landroid/speech/tts/TextToSpeech$OnInitListener;)V
+      0011: iput-object              v0, v3, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0013: return-void              
+
+    .method private synthetic lambda$ensureTts$1(I)V   [code_off=15752]
+      # registers=5 ins=2 outs=2 tries=0 insns=43
+      0000: const-string             v0, "PetBridge"
+      0002: if-nez                   v4, +35
+      0004: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0006: if-eqz                   v1, +31
+      0008: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      000a: sget-object              Ljava/util/Locale;->SIMPLIFIED_CHINESE:Ljava/util/Locale;
+      000c: invoke-virtual           {v1, v2}, Landroid/speech/tts/TextToSpeech;->setLanguage(Ljava/util/Locale;)I
+      000f: move-result              v1
+      0010: const/4                  v2, #-1
+      0011: if-eq                    v1, v2, +7
+      0013: const/4                  v2, #-2
+      0014: if-eq                    v1, v2, +4
+      0016: const/4                  v2, #1
+      0017: goto                     +25
+      0018: const/4                  v2, #0
+      0019: iput-boolean             v2, v3, Lcom/dshpet/webfish/PetBridge;->ttsReady:Z
+      001b: iget-boolean             v2, v3, Lcom/dshpet/webfish/PetBridge;->ttsReady:Z
+      001d: if-nez                   v2, +7
+      001f: const-string             v2, "TTS 中文不可用"
+      0021: invoke-static            {v0, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      0024: goto                     +42
+      0025: const-string             v1, "TTS 初始化失败"
+      0027: invoke-static            {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+      002a: return-void              
+
+    .method private synthetic lambda$enterOverlay$0(Lcom/dshpet/webfish/MainActivity;)V   [code_off=15856]
+      # registers=3 ins=2 outs=2 tries=0 insns=16
+      0000: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->isShown()Z
+      0003: move-result              v0
+      0004: if-eqz                   v0, +6
+      0006: invoke-virtual           {v2}, Lcom/dshpet/webfish/MainActivity;->goBackground()V
+      0009: goto                     +15
+      000a: const-string             v0, "悬浮窗没起来：请确认已允许「显示在其他应用上层」权限"
+      000c: invoke-virtual           {v1, v0}, Lcom/dshpet/webfish/PetBridge;->toast(Ljava/lang/String;)V
+      000f: return-void              
+
+    .method static synthetic lambda$exitApp$5(Lcom/dshpet/webfish/MainActivity;)V   [code_off=15904]
+      # registers=1 ins=1 outs=1 tries=0 insns=6
+      0000: if-eqz                   v0, +5
+      0002: invoke-virtual           {v0}, Lcom/dshpet/webfish/MainActivity;->finishAffinity()V
+      0005: return-void              
+
+    .method private synthetic lambda$httpPostAsync$2(Ljava/lang/String;Ljava/lang/String;)V   [code_off=15932]
+      # registers=6 ins=3 outs=3 tries=0 insns=50
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/PetBridge;->webView:Landroid/webkit/WebView;
+      0002: new-instance             v1, idx=87
+      0004: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0007: const-string             v2, "window.__petHttp && window.__petHttp("
+      0009: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      000c: move-result-object       v1
+      000d: invoke-static            {v4}, Lorg/json/JSONObject;->quote(Ljava/lang/String;)Ljava/lang/String;
+      0010: move-result-object       v2
+      0011: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0014: move-result-object       v1
+      0015: const-string             v2, ","
+      0017: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      001a: move-result-object       v1
+      001b: invoke-static            {v5}, Lorg/json/JSONObject;->quote(Ljava/lang/String;)Ljava/lang/String;
+      001e: move-result-object       v2
+      001f: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0022: move-result-object       v1
+      0023: const-string             v2, ")"
+      0025: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0028: move-result-object       v1
+      0029: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      002c: move-result-object       v1
+      002d: const/4                  v2, #0
+      002e: invoke-virtual           {v0, v1, v2}, Landroid/webkit/WebView;->evaluateJavascript(Ljava/lang/String;Landroid/webkit/ValueCallback;)V
+      0031: return-void              
+
+    .method private synthetic lambda$httpPostAsync$3(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V   [code_off=16048]
+      # registers=15 ins=5 outs=4 tries=12 insns=240
+      0000: const-string             v0, "{}"
+      0002: const-string             v1, "body"
+      0004: const-string             v2, "status"
+      0006: new-instance             v3, idx=92
+      0008: invoke-direct            {v3, v11}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
+      000b: invoke-virtual           {v3}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+      000e: move-result-object       v3
+      000f: check-cast               v3, idx=91
+      0011: const-string             v4, "POST"
+      0013: invoke-virtual           {v3, v4}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+      0016: const/16                 v4, +15000
+      0018: invoke-virtual           {v3, v4}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+      001b: const                    v4, #180000
+      001e: invoke-virtual           {v3, v4}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+      0021: const-string             v4, "Content-Type"
+      0023: const-string             v5, "application/json; charset=utf-8"
+      0025: invoke-virtual           {v3, v4, v5}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+      0028: new-instance             v4, idx=100
+      002a: if-nez                   v12, +4
+      002c: move-object              v5, v0
+      002d: goto                     +47
+      002e: move-object              v5, v12
+      002f: invoke-direct            {v4, v5}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+      0032: invoke-virtual           {v4}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+      0035: move-result-object       v5
+      0036: invoke-interface         {v5}, Ljava/util/Iterator;->hasNext()Z
+      0039: move-result              v6
+      003a: if-eqz                   v6, +16
+      003c: invoke-interface         {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+      003f: move-result-object       v6
+      0040: check-cast               v6, idx=86
+      0042: invoke-virtual           {v4, v6}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+      0045: move-result-object       v7
+      0046: invoke-virtual           {v3, v6, v7}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+      0049: goto                     +54
+      004a: goto                     +76
+      004b: move-exception           v4
+      004c: const/4                  v4, #1
+      004d: invoke-virtual           {v3, v4}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+      0050: if-nez                   v13, +3
+      0052: goto                     +84
+      0053: move-object              v0, v13
+      0054: sget-object              Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
+      0056: invoke-virtual           {v0, v4}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+      0059: move-result-object       v0
+      005a: array-length             v4, v0
+      005b: invoke-virtual           {v3, v4}, Ljava/net/HttpURLConnection;->setFixedLengthStreamingMode(I)V
+      005e: invoke-virtual           {v3}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+      0061: move-result-object       v4
+      0062: invoke-virtual           {v4, v0}, Ljava/io/OutputStream;->write([B)V
+      0065: if-eqz                   v4, +5
+      0067: invoke-virtual           {v4}, Ljava/io/OutputStream;->close()V
+      006a: invoke-virtual           {v3}, Ljava/net/HttpURLConnection;->getResponseCode()I
+      006d: move-result              v4
+      006e: const/16                 v5, +400
+      0070: if-lt                    v4, v5, +7
+      0072: invoke-virtual           {v3}, Ljava/net/HttpURLConnection;->getErrorStream()Ljava/io/InputStream;
+      0075: move-result-object       v5
+      0076: goto                     +123
+      0077: invoke-virtual           {v3}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+      007a: move-result-object       v5
+      007b: new-instance             v6, idx=87
+      007d: invoke-direct            {v6}, Ljava/lang/StringBuilder;-><init>()V
+      0080: if-eqz                   v5, +39
+      0082: new-instance             v7, idx=73
+      0084: new-instance             v8, idx=75
+      0086: sget-object              Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
+      0088: invoke-direct            {v8, v5, v9}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+      008b: invoke-direct            {v7, v8}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+      008e: invoke-virtual           {v7}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+      0091: move-result-object       v8
+      0092: move-object              v9, v8
+      0093: if-eqz                   v8, +6
+      0095: invoke-virtual           {v6, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0098: goto                     +142
+      0099: invoke-virtual           {v7}, Ljava/io/BufferedReader;->close()V
+      009c: goto                     +167
+      009d: move-exception           v8
+      009e: invoke-virtual           {v7}, Ljava/io/BufferedReader;->close()V
+      00a1: goto                     +166
+      00a2: move-exception           v9
+      00a3: invoke-virtual           {v8, v9}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+      00a6: throw                    v8
+      00a7: new-instance             v7, idx=100
+      00a9: invoke-direct            {v7}, Lorg/json/JSONObject;-><init>()V
+      00ac: invoke-virtual           {v7, v2, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+      00af: invoke-virtual           {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      00b2: move-result-object       v8
+      00b3: invoke-virtual           {v7, v1, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+      00b6: invoke-virtual           {v7}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+      00b9: move-result-object       v8
+      00ba: invoke-virtual           {v3}, Ljava/net/HttpURLConnection;->disconnect()V
+      00bd: goto                     +228
+      00be: move-exception           v5
+      00bf: if-eqz                   v4, +10
+      00c1: invoke-virtual           {v4}, Ljava/io/OutputStream;->close()V
+      00c4: goto                     +201
+      00c5: move-exception           v6
+      00c6: invoke-virtual           {v5, v6}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+      00c9: throw                    v5
+      00ca: move-exception           v0
+      00cb: new-instance             v3, idx=100
+      00cd: invoke-direct            {v3}, Lorg/json/JSONObject;-><init>()V
+      00d0: const/4                  v4, #-1
+      00d1: invoke-virtual           {v3, v2, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+      00d4: invoke-static            {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+      00d7: move-result-object       v2
+      00d8: invoke-virtual           {v3, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+      00db: invoke-virtual           {v3}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+      00de: move-result-object       v1
+      00df: move-object              v8, v1
+      00e0: goto                     +228
+      00e1: move-exception           v1
+      00e2: const-string             v8, "{\"status\":-1,\"body\":\"error\"}"
+      00e4: move-object              v0, v8
+      00e5: iget-object              v1, v10, Lcom/dshpet/webfish/PetBridge;->main:Landroid/os/Handler;
+      00e7: new-instance             v2, idx=65
+      00e9: invoke-direct            {v2, v10, v14, v0}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;-><init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;)V
+      00ec: invoke-virtual           {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      00ef: return-void              
+
+    .method private synthetic lambda$toast$4(Ljava/lang/String;)V   [code_off=16664]
+      # registers=4 ins=2 outs=3 tries=0 insns=11
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0002: const/4                  v1, #0
+      0003: invoke-static            {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+      0006: move-result-object       v0
+      0007: invoke-virtual           {v0}, Landroid/widget/Toast;->show()V
+      000a: return-void              
+
+    .method private pref()Landroid/content/SharedPreferences;   [code_off=13860]
+      # registers=4 ins=1 outs=3 tries=0 insns=10
+      0000: iget-object              v0, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0002: const-string             v1, "dsh_pet_kv"
+      0004: const/4                  v2, #0
+      0005: invoke-virtual           {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+      0008: move-result-object       v0
+      0009: return-object            v0
+
+    .method public static setActivity(Lcom/dshpet/webfish/MainActivity;)V   [code_off=17004]
+      # registers=2 ins=1 outs=2 tries=0 insns=8
+      0000: new-instance             v0, idx=89
+      0002: invoke-direct            {v0, v1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+      0005: sput-object              Lcom/dshpet/webfish/PetBridge;->activityRef:Ljava/lang/ref/WeakReference;
+      0007: return-void              
+  .virtual_methods:
+
+    .method public canOverlay()Z   [code_off=13896]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=2 ins=1 outs=1 tries=0 insns=8
+      0000: nop                      
+      0001: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0003: invoke-static            {v0}, Landroid/provider/Settings;->canDrawOverlays(Landroid/content/Context;)Z
+      0006: move-result              v0
+      0007: return                   v0
+
+    .method public enterOverlay()Ljava/lang/String;   [code_off=14192]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=7 ins=1 outs=4 tries=0 insns=67
+      0000: invoke-virtual           {v6}, Lcom/dshpet/webfish/PetBridge;->canOverlay()Z
+      0003: move-result              v0
+      0004: if-nez                   v0, +8
+      0006: invoke-virtual           {v6}, Lcom/dshpet/webfish/PetBridge;->requestOverlayPermission()V
+      0009: const-string             v0, "{\"ok\":false,\"reason\":\"permission\"}"
+      000b: return-object            v0
+      000c: new-instance             v0, idx=13
+      000e: iget-object              v1, v6, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0010: const-class              v2, Lcom/dshpet/webfish/OverlayService;
+      0012: invoke-direct            {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+      0015: const-string             v1, "com.dshpet.webfish.SHOW"
+      0017: invoke-virtual           {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+      001a: nop                      
+      001b: iget-object              v1, v6, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      001d: invoke-virtual           {v1, v0}, Landroid/content/Context;->startForegroundService(Landroid/content/Intent;)Landroid/content/ComponentName;
+      0020: invoke-static            {}, Landroid/os/SystemClock;->elapsedRealtime()J
+      0023: move-result-wide         v1
+      0024: sput-wide                Lcom/dshpet/webfish/PetBridge;->overlayLaunchedAt:J
+      0026: sget-object              Lcom/dshpet/webfish/PetBridge;->activityRef:Ljava/lang/ref/WeakReference;
+      0028: invoke-virtual           {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+      002b: move-result-object       v1
+      002c: check-cast               v1, idx=56
+      002e: if-eqz                   v1, +18
+      0030: iget-boolean             v2, v6, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      0032: if-nez                   v2, +14
+      0034: iget-object              v2, v6, Lcom/dshpet/webfish/PetBridge;->main:Landroid/os/Handler;
+      0036: new-instance             v3, idx=67
+      0038: invoke-direct            {v3, v6, v1}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;-><init>(Lcom/dshpet/webfish/PetBridge;Lcom/dshpet/webfish/MainActivity;)V
+      003b: const-wide/16            v4, +900
+      003d: invoke-virtual           {v2, v3, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+      0040: const-string             v2, "{\"ok\":true}"
+      0042: return-object            v2
+
+    .method public exitApp()V   [code_off=15576]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=1 outs=2 tries=0 insns=27
+      0000: iget-boolean             v0, v3, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      0002: if-eqz                   v0, +6
+      0004: invoke-virtual           {v3}, Lcom/dshpet/webfish/PetBridge;->exitOverlay()V
+      0007: return-void              
+      0008: sget-object              Lcom/dshpet/webfish/PetBridge;->activityRef:Ljava/lang/ref/WeakReference;
+      000a: invoke-virtual           {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+      000d: move-result-object       v0
+      000e: check-cast               v0, idx=56
+      0010: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->main:Landroid/os/Handler;
+      0012: new-instance             v2, idx=68
+      0014: invoke-direct            {v2, v0}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;-><init>(Lcom/dshpet/webfish/MainActivity;)V
+      0017: invoke-virtual           {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      001a: return-void              
+
+    .method public exitOverlay()V   [code_off=15648]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=1 outs=3 tries=0 insns=20
+      0000: new-instance             v0, idx=13
+      0002: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0004: const-class              v2, Lcom/dshpet/webfish/OverlayService;
+      0006: invoke-direct            {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+      0009: const-string             v1, "com.dshpet.webfish.HIDE"
+      000b: invoke-virtual           {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+      000e: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0010: invoke-virtual           {v1, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+      0013: return-void              
+
+    .method public getMode()Ljava/lang/String;   [code_off=14344]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=2 ins=1 outs=0 tries=0 insns=10
+      0000: iget-boolean             v0, v1, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      0002: if-eqz                   v0, +5
+      0004: const-string             v0, "overlay"
+      0006: goto                     +9
+      0007: const-string             v0, "app"
+      0009: return-object            v0
+
+    .method public getPlatform()Ljava/lang/String;   [code_off=14380]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=2 ins=1 outs=0 tries=0 insns=3
+      0000: const-string             v0, "android"
+      0002: return-object            v0
+
+    .method public getScreen()Ljava/lang/String;   [code_off=14404]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=18 ins=1 outs=4 tries=2 insns=296
+      0000: move-object/from16       v1, v17
+      0002: const-string             v0, "android"
+      0004: const-string             v2, "dimen"
+      0006: const/4                  v3, #0
+      0007: const/4                  v4, #0
+      0008: const/4                  v5, #0
+      0009: const/4                  v6, #0
+      000a: const/4                  v7, #0
+      000b: const/4                  v8, #0
+      000c: iget-object              v9, v1, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      000e: invoke-virtual           {v9}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+      0011: move-result-object       v9
+      0012: invoke-virtual           {v9}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+      0015: move-result-object       v9
+      0016: iget                     v9, v9, Landroid/util/DisplayMetrics;->density:F
+      0018: const/4                  v10, #0
+      0019: cmpg-float               v11, v9, v10
+      001b: if-gtz                   v11, +4
+      001d: const/high16             v9, #1065353216
+      001f: iget-object              v12, v1, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0021: const-string             v13, "window"
+      0023: invoke-virtual           {v12, v13}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+      0026: move-result-object       v12
+      0027: check-cast               v12, idx=44
+      0029: if-eqz                   v12, +146
+      002b: sget                     Landroid/os/Build$VERSION;->SDK_INT:I
+      002d: const/16                 v14, +30
+      002f: if-lt                    v13, v14, +73
+      0031: invoke-interface         {v12}, Landroid/view/WindowManager;->getMaximumWindowMetrics()Landroid/view/WindowMetrics;
+      0034: move-result-object       v0
+      0035: invoke-virtual           {v0}, Landroid/view/WindowMetrics;->getBounds()Landroid/graphics/Rect;
+      0038: move-result-object       v2
+      0039: invoke-virtual           {v0}, Landroid/view/WindowMetrics;->getWindowInsets()Landroid/view/WindowInsets;
+      003c: move-result-object       v13
+      003d: if-eqz                   v13, +46
+      003f: invoke-static            {}, Landroid/view/WindowInsets$Type;->statusBars()I
+      0042: move-result              v14
+      0043: invoke-virtual           {v13, v14}, Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets;
+      0046: move-result-object       v14
+      0047: iget                     v14, v14, Landroid/graphics/Insets;->top:I
+      0049: move                     v5, v14
+      004a: invoke-static            {}, Landroid/view/WindowInsets$Type;->navigationBars()I
+      004d: move-result              v14
+      004e: invoke-virtual           {v13, v14}, Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets;
+      0051: move-result-object       v14
+      0052: iget                     v14, v14, Landroid/graphics/Insets;->bottom:I
+      0054: move                     v6, v14
+      0055: invoke-static            {}, Landroid/view/WindowInsets$Type;->navigationBars()I
+      0058: move-result              v14
+      0059: invoke-virtual           {v13, v14}, Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets;
+      005c: move-result-object       v14
+      005d: iget                     v14, v14, Landroid/graphics/Insets;->right:I
+      005f: move                     v8, v14
+      0060: invoke-static            {}, Landroid/view/WindowInsets$Type;->navigationBars()I
+      0063: move-result              v14
+      0064: invoke-virtual           {v13, v14}, Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets;
+      0067: move-result-object       v14
+      0068: iget                     v14, v14, Landroid/graphics/Insets;->left:I
+      006a: move                     v7, v14
+      006b: invoke-virtual           {v2}, Landroid/graphics/Rect;->width()I
+      006e: move-result              v14
+      006f: move                     v3, v14
+      0070: invoke-virtual           {v2}, Landroid/graphics/Rect;->height()I
+      0073: move-result              v14
+      0074: move                     v4, v14
+      0075: move/from16              v16, v10
+      0077: goto                     +189
+      0078: new-instance             v13, idx=31
+      007a: invoke-direct            {v13}, Landroid/util/DisplayMetrics;-><init>()V
+      007d: invoke-interface         {v12}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+      0080: move-result-object       v14
+      0081: if-eqz                   v14, +23
+      0083: invoke-virtual           {v14, v13}, Landroid/view/Display;->getRealMetrics(Landroid/util/DisplayMetrics;)V
+      0086: iget                     v15, v13, Landroid/util/DisplayMetrics;->widthPixels:I
+      0088: move                     v3, v15
+      0089: iget                     v15, v13, Landroid/util/DisplayMetrics;->heightPixels:I
+      008b: move                     v4, v15
+      008c: iget                     v15, v13, Landroid/util/DisplayMetrics;->density:F
+      008e: cmpg-float               v15, v15, v10
+      0090: if-gtz                   v15, +5
+      0092: const/high16             v15, #1065353216
+      0094: goto                     +151
+      0095: iget                     v15, v13, Landroid/util/DisplayMetrics;->density:F
+      0097: move                     v9, v15
+      0098: invoke-static            {}, Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
+      009b: move-result-object       v15
+      009c: move/from16              v16, v10
+      009e: const-string             v10, "status_bar_height"
+      00a0: invoke-virtual           {v15, v10, v2, v0}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+      00a3: move-result              v10
+      00a4: const-string             v11, "navigation_bar_height"
+      00a6: invoke-virtual           {v15, v11, v2, v0}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+      00a9: move-result              v0
+      00aa: if-lez                   v10, +7
+      00ac: invoke-virtual           {v15, v10}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+      00af: move-result              v2
+      00b0: move                     v5, v2
+      00b1: if-lez                   v0, +12
+      00b3: invoke-virtual           {v15, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+      00b6: move-result              v2
+      00b7: move                     v6, v2
+      00b8: goto                     +189
+      00b9: move-exception           v0
+      00ba: goto                     +193
+      00bb: move/from16              v16, v10
+      00bd: goto                     +193
+      00be: move-exception           v0
+      00bf: move/from16              v16, v10
+      00c1: if-lez                   v3, +4
+      00c3: if-gtz                   v4, +28
+      00c5: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      00c7: invoke-virtual           {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+      00ca: move-result-object       v0
+      00cb: invoke-virtual           {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+      00ce: move-result-object       v0
+      00cf: iget                     v3, v0, Landroid/util/DisplayMetrics;->widthPixels:I
+      00d1: iget                     v4, v0, Landroid/util/DisplayMetrics;->heightPixels:I
+      00d3: iget                     v2, v0, Landroid/util/DisplayMetrics;->density:F
+      00d5: cmpg-float               v2, v2, v16
+      00d7: if-gtz                   v2, +5
+      00d9: const/high16             v11, #1065353216
+      00db: goto                     +222
+      00dc: iget                     v11, v0, Landroid/util/DisplayMetrics;->density:F
+      00de: move                     v9, v11
+      00df: sub-int                  v0, v4, v5
+      00e1: sub-int/2addr            v0, v6
+      00e2: const/4                  v2, #1
+      00e3: invoke-static            {v2, v0}, Ljava/lang/Math;->max(II)I
+      00e6: move-result              v0
+      00e7: sub-int                  v10, v3, v7
+      00e9: sub-int/2addr            v10, v8
+      00ea: invoke-static            {v2, v10}, Ljava/lang/Math;->max(II)I
+      00ed: move-result              v2
+      00ee: new-instance             v10, idx=87
+      00f0: invoke-direct            {v10}, Ljava/lang/StringBuilder;-><init>()V
+      00f3: const-string             v11, "{\"w\":"
+      00f5: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      00f8: move-result-object       v10
+      00f9: int-to-float             v11, v2
+      00fa: div-float/2addr          v11, v9
+      00fb: invoke-static            {v11}, Ljava/lang/Math;->round(F)I
+      00fe: move-result              v11
+      00ff: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      0102: move-result-object       v10
+      0103: const-string             v11, ",\"h\":"
+      0105: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0108: move-result-object       v10
+      0109: int-to-float             v11, v0
+      010a: div-float/2addr          v11, v9
+      010b: invoke-static            {v11}, Ljava/lang/Math;->round(F)I
+      010e: move-result              v11
+      010f: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+      0112: move-result-object       v10
+      0113: const-string             v11, ",\"density\":"
+      0115: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0118: move-result-object       v10
+      0119: invoke-virtual           {v10, v9}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+      011c: move-result-object       v10
+      011d: const-string             v11, "}"
+      011f: invoke-virtual           {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0122: move-result-object       v10
+      0123: invoke-virtual           {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0126: move-result-object       v10
+      0127: return-object            v10
+
+    .method public httpPostAsync(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V   [code_off=15704]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=12 ins=5 outs=6 tries=0 insns=16
+      0000: iget-object              v0, v7, Lcom/dshpet/webfish/PetBridge;->pool:Ljava/util/concurrent/ExecutorService;
+      0002: new-instance             v1, idx=66
+      0004: move-object              v2, v7
+      0005: move-object              v6, v8
+      0006: move-object              v3, v9
+      0007: move-object              v4, v10
+      0008: move-object              v5, v11
+      0009: invoke-direct/range      {v1..v6}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;-><init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      000c: invoke-interface         {v0, v1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
+      000f: return-void              
+
+    .method public isCrispWindow()Z   [code_off=13928]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=3 ins=1 outs=1 tries=0 insns=20
+      0000: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->getInstance()Lcom/dshpet/webfish/OverlayService;
+      0003: move-result-object       v0
+      0004: iget-boolean             v1, v2, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      0006: if-eqz                   v1, +12
+      0008: if-eqz                   v0, +10
+      000a: invoke-virtual           {v0}, Lcom/dshpet/webfish/OverlayService;->isCrispMode()Z
+      000d: move-result              v1
+      000e: if-eqz                   v1, +4
+      0010: const/4                  v1, #1
+      0011: goto                     +19
+      0012: const/4                  v1, #0
+      0013: return                   v1
+
+    .method public isNative()Z   [code_off=13984]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=2 ins=1 outs=0 tries=0 insns=2
+      0000: const/4                  v0, #1
+      0001: return                   v0
+
+    .method public isStaticRender()Z   [code_off=14004]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=3 ins=1 outs=1 tries=0 insns=20
+      0000: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->getInstance()Lcom/dshpet/webfish/OverlayService;
+      0003: move-result-object       v0
+      0004: iget-boolean             v1, v2, Lcom/dshpet/webfish/PetBridge;->overlay:Z
+      0006: if-eqz                   v1, +12
+      0008: if-eqz                   v0, +10
+      000a: invoke-virtual           {v0}, Lcom/dshpet/webfish/OverlayService;->isCrispMode()Z
+      000d: move-result              v1
+      000e: if-nez                   v1, +4
+      0010: const/4                  v1, #1
+      0011: goto                     +19
+      0012: const/4                  v1, #0
+      0013: return                   v1
+
+    .method public keepAwake(Z)Z   [code_off=14060]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=3 ins=2 outs=0 tries=0 insns=2
+      0000: const/4                  v0, #1
+      0001: return                   v0
+
+    .method public loadKV(Ljava/lang/String;)Ljava/lang/String;   [code_off=15036]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=2 outs=3 tries=1 insns=13
+      0000: const-string             v0, ""
+      0002: invoke-direct            {v2}, Lcom/dshpet/webfish/PetBridge;->pref()Landroid/content/SharedPreferences;
+      0005: move-result-object       v1
+      0006: invoke-interface         {v1, v3, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      0009: move-result-object       v0
+      000a: return-object            v0
+      000b: move-exception           v1
+      000c: return-object            v0
+
+    .method public log(Ljava/lang/String;)V   [code_off=16704]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=3 ins=2 outs=2 tries=0 insns=6
+      0000: const-string             v0, "PetBridge"
+      0002: invoke-static            {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+      0005: return-void              
+
+    .method public moveWindow(DD)V   [code_off=16732]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=9 ins=5 outs=3 tries=0 insns=32
+      0000: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->getInstance()Lcom/dshpet/webfish/OverlayService;
+      0003: move-result-object       v0
+      0004: if-eqz                   v0, +27
+      0006: invoke-direct            {v4}, Lcom/dshpet/webfish/PetBridge;->density()F
+      0009: move-result              v1
+      000a: float-to-double          v1, v1
+      000b: mul-double/2addr         v1, v5
+      000c: invoke-static            {v1, v2}, Ljava/lang/Math;->round(D)J
+      000f: move-result-wide         v1
+      0010: long-to-int              v1, v1
+      0011: invoke-direct            {v4}, Lcom/dshpet/webfish/PetBridge;->density()F
+      0014: move-result              v2
+      0015: float-to-double          v2, v2
+      0016: mul-double/2addr         v2, v7
+      0017: invoke-static            {v2, v3}, Ljava/lang/Math;->round(D)J
+      001a: move-result-wide         v2
+      001b: long-to-int              v2, v2
+      001c: invoke-virtual           {v0, v1, v2}, Lcom/dshpet/webfish/OverlayService;->moveWindow(II)V
+      001f: return-void              
+
+    .method public openApp()V   [code_off=16812]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=1 outs=3 tries=0 insns=20
+      0000: new-instance             v0, idx=13
+      0002: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0004: const-class              v2, Lcom/dshpet/webfish/MainActivity;
+      0006: invoke-direct            {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+      0009: const/high16             v1, #268566528
+      000b: invoke-virtual           {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+      000e: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0010: invoke-virtual           {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+      0013: return-void              
+
+    .method public requestOverlayPermission()V   [code_off=16868]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=1 outs=2 tries=0 insns=60
+      0000: nop                      
+      0001: iget-object              v0, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0003: invoke-static            {v0}, Landroid/provider/Settings;->canDrawOverlays(Landroid/content/Context;)Z
+      0006: move-result              v0
+      0007: if-eqz                   v0, +3
+      0009: return-void              
+      000a: new-instance             v0, idx=13
+      000c: const-string             v1, "android.settings.action.MANAGE_OVERLAY_PERMISSION"
+      000e: invoke-direct            {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+      0011: new-instance             v1, idx=87
+      0013: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0016: const-string             v2, "package:"
+      0018: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      001b: move-result-object       v1
+      001c: iget-object              v2, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      001e: invoke-virtual           {v2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+      0021: move-result-object       v2
+      0022: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0025: move-result-object       v1
+      0026: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0029: move-result-object       v1
+      002a: invoke-static            {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+      002d: move-result-object       v1
+      002e: invoke-virtual           {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+      0031: const/high16             v1, #268435456
+      0033: invoke-virtual           {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+      0036: iget-object              v1, v3, Lcom/dshpet/webfish/PetBridge;->ctx:Landroid/content/Context;
+      0038: invoke-virtual           {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+      003b: return-void              
+
+    .method public saveKV(Ljava/lang/String;Ljava/lang/String;)Z   [code_off=14080]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=5 ins=3 outs=3 tries=1 insns=20
+      0000: invoke-direct            {v2}, Lcom/dshpet/webfish/PetBridge;->pref()Landroid/content/SharedPreferences;
+      0003: move-result-object       v0
+      0004: invoke-interface         {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+      0007: move-result-object       v0
+      0008: invoke-interface         {v0, v3, v4}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+      000b: move-result-object       v0
+      000c: invoke-interface         {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
+      000f: const/4                  v0, #1
+      0010: return                   v0
+      0011: move-exception           v0
+      0012: const/4                  v1, #0
+      0013: return                   v1
+
+    .method public setWindowSize(II)V   [code_off=17036]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=7 ins=3 outs=3 tries=0 insns=30
+      0000: invoke-static            {}, Lcom/dshpet/webfish/OverlayService;->getInstance()Lcom/dshpet/webfish/OverlayService;
+      0003: move-result-object       v0
+      0004: if-eqz                   v0, +25
+      0006: int-to-float             v1, v5
+      0007: invoke-direct            {v4}, Lcom/dshpet/webfish/PetBridge;->density()F
+      000a: move-result              v2
+      000b: mul-float/2addr          v1, v2
+      000c: invoke-static            {v1}, Ljava/lang/Math;->round(F)I
+      000f: move-result              v1
+      0010: int-to-float             v2, v6
+      0011: invoke-direct            {v4}, Lcom/dshpet/webfish/PetBridge;->density()F
+      0014: move-result              v3
+      0015: mul-float/2addr          v2, v3
+      0016: invoke-static            {v2}, Ljava/lang/Math;->round(F)I
+      0019: move-result              v2
+      001a: invoke-virtual           {v0, v1, v2}, Lcom/dshpet/webfish/OverlayService;->setWindowSize(II)V
+      001d: return-void              
+
+    .method public speak(Ljava/lang/String;D)Ljava/lang/String;   [code_off=15092]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=8 ins=4 outs=5 tries=1 insns=78
+      0000: invoke-direct            {v4}, Lcom/dshpet/webfish/PetBridge;->ensureTts()V
+      0003: iget-object              v0, v4, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0005: if-eqz                   v0, +70
+      0007: if-eqz                   v5, +68
+      0009: invoke-virtual           {v5}, Ljava/lang/String;->isEmpty()Z
+      000c: move-result              v0
+      000d: if-eqz                   v0, +3
+      000f: goto                     +75
+      0010: iget-object              v0, v4, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0012: const-wide/16            v1, +0
+      0014: cmpl-double              v1, v6, v1
+      0016: if-lez                   v1, +4
+      0018: move-wide                v1, v6
+      0019: goto                     +28
+      001a: const-wide/high16        v1, #1072693248
+      001c: double-to-float          v1, v1
+      001d: invoke-virtual           {v0, v1}, Landroid/speech/tts/TextToSpeech;->setSpeechRate(F)I
+      0020: iget-object              v0, v4, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0022: const-string             v1, "fish"
+      0024: const/4                  v2, #0
+      0025: const/4                  v3, #0
+      0026: invoke-virtual           {v0, v5, v2, v3, v1}, Landroid/speech/tts/TextToSpeech;->speak(Ljava/lang/CharSequence;ILandroid/os/Bundle;Ljava/lang/String;)I
+      0029: const-string             v0, "{\"ok\":true}"
+      002b: return-object            v0
+      002c: move-exception           v0
+      002d: new-instance             v1, idx=87
+      002f: invoke-direct            {v1}, Ljava/lang/StringBuilder;-><init>()V
+      0032: const-string             v2, "{\"ok\":false,\"reason\":\""
+      0034: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0037: move-result-object       v1
+      0038: invoke-virtual           {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+      003b: move-result-object       v2
+      003c: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      003f: move-result-object       v1
+      0040: const-string             v2, "\"}"
+      0042: invoke-virtual           {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      0045: move-result-object       v1
+      0046: invoke-virtual           {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+      0049: move-result-object       v1
+      004a: return-object            v1
+      004b: const-string             v0, "{\"ok\":false,\"reason\":\"tts-unavailable\"}"
+      004d: return-object            v0
+
+    .method public stopSpeak()V   [code_off=17112]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=2 ins=1 outs=1 tries=0 insns=10
+      0000: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0002: if-eqz                   v0, +7
+      0004: iget-object              v0, v1, Lcom/dshpet/webfish/PetBridge;->tts:Landroid/speech/tts/TextToSpeech;
+      0006: invoke-virtual           {v0}, Landroid/speech/tts/TextToSpeech;->stop()I
+      0009: return-void              
+
+    .method public toast(Ljava/lang/String;)V   [code_off=17148]
+      # ANNOTATIONS: Landroid/webkit/JavascriptInterface;
+      # registers=4 ins=2 outs=3 tries=0 insns=11
+      0000: iget-object              v0, v2, Lcom/dshpet/webfish/PetBridge;->main:Landroid/os/Handler;
+      0002: new-instance             v1, idx=69
+      0004: invoke-direct            {v1, v2, v3}, Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;-><init>(Lcom/dshpet/webfish/PetBridge;Ljava/lang/String;)V
+      0007: invoke-virtual           {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+      000a: return-void              

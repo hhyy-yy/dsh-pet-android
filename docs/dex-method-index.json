@@ -1,0 +1,1449 @@
+[
+ {
+  "dex": "classes.dex",
+  "class": "Lcom/dshpet/webfish/R$mipmap;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "private enum",
+  "code_off": 380,
+  "ann": []
+ },
+ {
+  "dex": "classes.dex",
+  "class": "Lcom/dshpet/webfish/R$string;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "private enum",
+  "code_off": 404,
+  "ann": []
+ },
+ {
+  "dex": "classes.dex",
+  "class": "Lcom/dshpet/webfish/R;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "private enum",
+  "code_off": 428,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/BuildConfig;",
+  "name": "<clinit>",
+  "ret": "V",
+  "params": [],
+  "acc": "static enum",
+  "code_off": 8176,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/BuildConfig;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "public enum",
+  "code_off": 8212,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 8236,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda0;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 8264,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 8292,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity$$ExternalSyntheticLambda1;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 8320,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "$r8$lambda$3xIuxt805Kdwg9tghwBOJSefY_U",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 8348,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "$r8$lambda$uzyh9kHau2y3ePR-w07wFZsl3T8",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 8372,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "public enum",
+  "code_off": 8396,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "hideSystemUi",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 8456,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "lambda$goBackground$1",
+  "ret": "V",
+  "params": [],
+  "acc": "private synthetic",
+  "code_off": 8500,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "lambda$onCreate$0",
+  "ret": "V",
+  "params": [],
+  "acc": "private synthetic",
+  "code_off": 8528,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "goBackground",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 8420,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "onBackPressed",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 8580,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "onCreate",
+  "ret": "V",
+  "params": [
+   "Landroid/os/Bundle;"
+  ],
+  "acc": "protected",
+  "code_off": 8604,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "onDestroy",
+  "ret": "V",
+  "params": [],
+  "acc": "protected",
+  "code_off": 8952,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/MainActivity;",
+  "name": "onResume",
+  "ret": "V",
+  "params": [],
+  "acc": "protected",
+  "code_off": 9032,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9124,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda0;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 9152,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9212,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda1;",
+  "name": "onTouch",
+  "ret": "Z",
+  "params": [
+   "Landroid/view/View;",
+   "Landroid/view/MotionEvent;"
+  ],
+  "acc": "public final",
+  "code_off": 9180,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9240,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda2;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 9272,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9304,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda3;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 9336,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Landroid/content/res/Configuration;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9368,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda4;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 9400,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9432,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda5;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 9460,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 9488,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService$$ExternalSyntheticLambda6;",
+  "name": "doFrame",
+  "ret": "V",
+  "params": [
+   "J"
+  ],
+  "acc": "public final",
+  "code_off": 9516,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$5k-3y82YmSMq8M6UitIGtFNHcKc",
+  "ret": "Z",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Landroid/view/View;",
+   "Landroid/view/MotionEvent;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 9708,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$Rb648kjZP2a3XH8x19SR4VzxT-w",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11020,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$VOz79oQ8CZlQsLsu2H-ng5cWhqw",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11044,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$rSh8CMP7aiHMxnLprqEaoCT8_3M",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11068,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$rVZW2KXqEEGzXR2iepr6xd6GETQ",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11092,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$yH7Ce5tW1xlafrUmSZy3TsjHo38",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "Landroid/content/res/Configuration;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11116,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "$r8$lambda$yz6xOe_t9LpUaWtRLISCyuaoqCE",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/OverlayService;",
+   "J"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 11140,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [],
+  "acc": "public enum",
+  "code_off": 11164,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "applyPending",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 11224,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "applyScreenSize",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 11484,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "buildNotification",
+  "ret": "Landroid/app/Notification;",
+  "params": [],
+  "acc": "private",
+  "code_off": 9544,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "createChannel",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 11700,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "createWindows",
+  "ret": "Z",
+  "params": [
+   "I"
+  ],
+  "acc": "private",
+  "code_off": 9736,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "density",
+  "ret": "F",
+  "params": [],
+  "acc": "private",
+  "code_off": 10780,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "forceSrgb",
+  "ret": "V",
+  "params": [
+   "Landroid/view/WindowManager$LayoutParams;"
+  ],
+  "acc": "private",
+  "code_off": 11772,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "forwardTouch",
+  "ret": "V",
+  "params": [
+   "Landroid/view/MotionEvent;"
+  ],
+  "acc": "private",
+  "code_off": 12000,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "getInstance",
+  "ret": "Lcom/dshpet/webfish/OverlayService;",
+  "params": [],
+  "acc": "public static",
+  "code_off": 10756,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "hideOverlay",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 12228,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "isShown",
+  "ret": "Z",
+  "params": [],
+  "acc": "public static",
+  "code_off": 10592,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$createWindows$0",
+  "ret": "Z",
+  "params": [
+   "Landroid/view/View;",
+   "Landroid/view/MotionEvent;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 10640,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$forwardTouch$1",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 12388,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$onConfigurationChanged$5",
+  "ret": "V",
+  "params": [
+   "Landroid/content/res/Configuration;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 12436,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$scheduleApply$3",
+  "ret": "V",
+  "params": [
+   "J"
+  ],
+  "acc": "private synthetic",
+  "code_off": 12644,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$scheduleApply$4",
+  "ret": "V",
+  "params": [],
+  "acc": "private synthetic",
+  "code_off": 12676,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "lambda$toast$2",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 12720,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "readCrispSetting",
+  "ret": "Z",
+  "params": [],
+  "acc": "private",
+  "code_off": 10668,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "scheduleApply",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 12940,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "showOverlay",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 13048,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "toast",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "private",
+  "code_off": 13216,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "update",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 13288,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "isCrispMode",
+  "ret": "Z",
+  "params": [],
+  "acc": "public",
+  "code_off": 10568,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "moveWindow",
+  "ret": "V",
+  "params": [
+   "I",
+   "I"
+  ],
+  "acc": "public",
+  "code_off": 12764,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "onBind",
+  "ret": "Landroid/os/IBinder;",
+  "params": [
+   "Landroid/content/Intent;"
+  ],
+  "acc": "public",
+  "code_off": 9688,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "onConfigurationChanged",
+  "ret": "V",
+  "params": [
+   "Landroid/content/res/Configuration;"
+  ],
+  "acc": "public",
+  "code_off": 12804,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "onCreate",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 12848,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "onDestroy",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 12904,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "onStartCommand",
+  "ret": "I",
+  "params": [
+   "Landroid/content/Intent;",
+   "I",
+   "I"
+  ],
+  "acc": "public",
+  "code_off": 10836,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/OverlayService;",
+  "name": "setWindowSize",
+  "ret": "V",
+  "params": [
+   "I",
+   "I"
+  ],
+  "acc": "public",
+  "code_off": 12996,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13460,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda0;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 13496,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13532,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda1;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 13576,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13620,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda2;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 13652,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13684,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda3;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 13712,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13740,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda4;",
+  "name": "run",
+  "ret": "V",
+  "params": [],
+  "acc": "public final",
+  "code_off": 13772,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;"
+  ],
+  "acc": "public synthetic enum",
+  "code_off": 13804,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge$$ExternalSyntheticLambda5;",
+  "name": "onInit",
+  "ret": "V",
+  "params": [
+   "I"
+  ],
+  "acc": "public final",
+  "code_off": 13832,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "$r8$lambda$2RpXdD9tERV6ehid4WN_VV9fj1A",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 15276,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "$r8$lambda$Gg9TP7Br0JfeInf6uB2x3MP3h94",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 15300,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "$r8$lambda$IWa6OOkA6THH3UXp5us5E2xciko",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 15324,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "$r8$lambda$XYiIL0SRFTEheB9R1mfIMoLfahQ",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 15348,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "$r8$lambda$l_q80Pc_l3HH7lgwzMbZoqb27L4",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/PetBridge;",
+   "I"
+  ],
+  "acc": "public static synthetic",
+  "code_off": 15372,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "<clinit>",
+  "ret": "V",
+  "params": [],
+  "acc": "static enum",
+  "code_off": 15396,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "<init>",
+  "ret": "V",
+  "params": [
+   "Landroid/content/Context;",
+   "Landroid/webkit/WebView;",
+   "Z"
+  ],
+  "acc": "public enum",
+  "code_off": 15440,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "density",
+  "ret": "F",
+  "params": [],
+  "acc": "private",
+  "code_off": 14148,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "ensureTts",
+  "ret": "V",
+  "params": [],
+  "acc": "private",
+  "code_off": 15520,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$ensureTts$1",
+  "ret": "V",
+  "params": [
+   "I"
+  ],
+  "acc": "private synthetic",
+  "code_off": 15752,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$enterOverlay$0",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 15856,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$exitApp$5",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "static synthetic",
+  "code_off": 15904,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$httpPostAsync$2",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 15932,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$httpPostAsync$3",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 16048,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "lambda$toast$4",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "private synthetic",
+  "code_off": 16664,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "pref",
+  "ret": "Landroid/content/SharedPreferences;",
+  "params": [],
+  "acc": "private",
+  "code_off": 13860,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "setActivity",
+  "ret": "V",
+  "params": [
+   "Lcom/dshpet/webfish/MainActivity;"
+  ],
+  "acc": "public static",
+  "code_off": 17004,
+  "ann": []
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "canOverlay",
+  "ret": "Z",
+  "params": [],
+  "acc": "public",
+  "code_off": 13896,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "enterOverlay",
+  "ret": "Ljava/lang/String;",
+  "params": [],
+  "acc": "public",
+  "code_off": 14192,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "exitApp",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 15576,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "exitOverlay",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 15648,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "getMode",
+  "ret": "Ljava/lang/String;",
+  "params": [],
+  "acc": "public",
+  "code_off": 14344,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "getPlatform",
+  "ret": "Ljava/lang/String;",
+  "params": [],
+  "acc": "public",
+  "code_off": 14380,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "getScreen",
+  "ret": "Ljava/lang/String;",
+  "params": [],
+  "acc": "public",
+  "code_off": 14404,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "httpPostAsync",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public",
+  "code_off": 15704,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "isCrispWindow",
+  "ret": "Z",
+  "params": [],
+  "acc": "public",
+  "code_off": 13928,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "isNative",
+  "ret": "Z",
+  "params": [],
+  "acc": "public",
+  "code_off": 13984,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "isStaticRender",
+  "ret": "Z",
+  "params": [],
+  "acc": "public",
+  "code_off": 14004,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "keepAwake",
+  "ret": "Z",
+  "params": [
+   "Z"
+  ],
+  "acc": "public",
+  "code_off": 14060,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "loadKV",
+  "ret": "Ljava/lang/String;",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "public",
+  "code_off": 15036,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "log",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "public",
+  "code_off": 16704,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "moveWindow",
+  "ret": "V",
+  "params": [
+   "D",
+   "D"
+  ],
+  "acc": "public",
+  "code_off": 16732,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "openApp",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 16812,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "requestOverlayPermission",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 16868,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "saveKV",
+  "ret": "Z",
+  "params": [
+   "Ljava/lang/String;",
+   "Ljava/lang/String;"
+  ],
+  "acc": "public",
+  "code_off": 14080,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "setWindowSize",
+  "ret": "V",
+  "params": [
+   "I",
+   "I"
+  ],
+  "acc": "public",
+  "code_off": 17036,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "speak",
+  "ret": "Ljava/lang/String;",
+  "params": [
+   "Ljava/lang/String;",
+   "D"
+  ],
+  "acc": "public",
+  "code_off": 15092,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "stopSpeak",
+  "ret": "V",
+  "params": [],
+  "acc": "public",
+  "code_off": 17112,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ },
+ {
+  "dex": "classes2.dex",
+  "class": "Lcom/dshpet/webfish/PetBridge;",
+  "name": "toast",
+  "ret": "V",
+  "params": [
+   "Ljava/lang/String;"
+  ],
+  "acc": "public",
+  "code_off": 17148,
+  "ann": [
+   "Landroid/webkit/JavascriptInterface;"
+  ]
+ }
+]

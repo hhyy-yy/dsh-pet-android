@@ -1,0 +1,113 @@
+{
+ "canvas": {
+  "w": 640,
+  "h": 360
+ },
+ "crop": {
+  "x": 180,
+  "y": 8,
+  "w": 285,
+  "h": 352
+ },
+ "union_box": {
+  "x": 194,
+  "y": 26,
+  "w": 257,
+  "h": 334
+ },
+ "fps": 24,
+ "body_box": [
+  212,
+  60,
+  428,
+  330
+ ],
+ "head_box": [
+  185,
+  60,
+  436,
+  195
+ ],
+ "stub": true,
+ "clips": [
+  {
+   "id": "idle/待机呼吸休闲",
+   "name": "待机呼吸休闲",
+   "cat": "idle",
+   "file": "anim/idle__待机呼吸休闲.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": true,
+   "stride": null,
+   "no_mirror": false,
+   "bytes": 567682
+  },
+  {
+   "id": "move/漂浮踏步",
+   "name": "漂浮踏步",
+   "cat": "move",
+   "file": "anim/move__漂浮踏步.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": true,
+   "stride": 90,
+   "no_mirror": false,
+   "bytes": 550760
+  },
+  {
+   "id": "turn/东张西望",
+   "name": "东张西望",
+   "cat": "turn",
+   "file": "anim/turn__东张西望.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": false,
+   "stride": null,
+   "no_mirror": false,
+   "bytes": 570302
+  },
+  {
+   "id": "click/点击回应-元气挥手",
+   "name": "点击回应-元气挥手",
+   "cat": "click",
+   "file": "anim/click__点击回应-元气挥手.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": false,
+   "stride": null,
+   "no_mirror": false,
+   "bytes": 590188
+  },
+  {
+   "id": "drag/被鼠标拖拽悬空反馈",
+   "name": "被鼠标拖拽悬空反馈",
+   "cat": "drag",
+   "file": "anim/drag__被鼠标拖拽悬空反馈.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": false,
+   "stride": null,
+   "no_mirror": false,
+   "bytes": 595534
+  },
+  {
+   "id": "random/写代码",
+   "name": "写代码",
+   "cat": "random",
+   "file": "anim/random__写代码.webp",
+   "frames": 48,
+   "fps": 24.0,
+   "loop": false,
+   "stride": null,
+   "no_mirror": true,
+   "bytes": 555474
+  }
+ ],
+ "sounds": {
+  "press": "sounds/press.mp3",
+  "release": "sounds/release.mp3",
+  "click": "sounds/press.mp3"
+ },
+ "chat_bg": [],
+ "icon": null
+}
